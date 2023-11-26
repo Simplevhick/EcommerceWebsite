@@ -18,7 +18,7 @@ function Nav() {
 
   return (
     <nav>
-        <div className="flex border bg-[#EADFEA] h-8">
+        <div className="flex border bg-[#EADFEA] h-8 relative z-10">
             <div className="ml-[78px] text-[#4B444D] mt-[6px]">
                 <button> All Catergories </button>
             </div>

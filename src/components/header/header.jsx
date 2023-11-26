@@ -6,13 +6,15 @@ import { PiCaretDownBold } from "react-icons/pi";
 import { PiCaretUpBold } from "react-icons/pi";
 import { FaQuestion } from "react-icons/fa";
 
+
+
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isValid, setIsValid] = useState(false);
 
   return (
     <header>
-      <div className="flex w-[80rem] h-[95px] bg-[#FFF7FC] relative z-20">
+      <div className="flex w-[80rem] h-[95px] bg-[#FFF7FC] relative z-10">
         <div>
           <img src={logo} alt="logo" className="w-[160px] h-[90px] mt-2 ml-10" />
         </div>
