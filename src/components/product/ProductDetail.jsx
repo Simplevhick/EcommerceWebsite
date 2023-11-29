@@ -99,11 +99,8 @@ const ProductDetail = ({visible, onClose }) => {
                   <div>
                     <input type="text" className="ml-[7.8rem] border-2 w-[27rem] mt-[10px] border-t-0 border-r-0 border-b-black border-l-0 text-[#FFF7FC]"/>
                   </div>
-                </div>
-                
-                
-                
-                        
+                </div>       
+
           </div>  
         </div>
     </div>

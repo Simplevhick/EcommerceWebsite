@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom"
+import DolceGabbana from './dolceGabbana/DolceGabbana'
 
 const Sidebar = () => {
   return (
@@ -10,7 +11,7 @@ const Sidebar = () => {
           </div>
 
           <div className="flex text-[#4B444D] mt-2 p-[4px]">
-            <Link className="text-xs ml-[3px]">Dolce&Gabbana</Link>
+            <Link to="/DolceGabbana" className="text-xs ml-[3px]">Dolce&Gabbana</Link>
 
             <p className="ml-[71px] text-xs">999+</p>
           </div>
