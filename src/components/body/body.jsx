@@ -15,7 +15,7 @@ const Body = () => {
 
   return (
     <section>
-      <div id="setShow" className="flex relative z-10">
+      <div id="setShow" style={isModalOpen ? {overflowY: 'hidden'}: {overflowY: 'auto'}} className="flex relative z-10">
        <Sidebar />
 
          {isModalOpen &&  <ProductDetail onClose={handleOnClose} visible={isModalOpen}/>}  
