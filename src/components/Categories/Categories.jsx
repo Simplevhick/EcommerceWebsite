@@ -1,7 +1,7 @@
 import React from 'react'
 import Sidebar from '../Sidebar'
 
-function DolceGabbana() {
+function Categories() {
   return (
     <div>
         <Sidebar />
@@ -9,4 +9,4 @@ function DolceGabbana() {
   )
 }
 
-export default DolceGabbana
+export default Categories;

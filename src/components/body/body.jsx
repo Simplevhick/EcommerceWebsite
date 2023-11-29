@@ -2,57 +2,66 @@
 import { Link } from "react-router-dom";
 import productDatas from "../../productDatas";
 import Sidebar from "../Sidebar";
-import ProductDetail from "../product/ProductDetail"
+import ProductDetail from "../product/ProductDetail";
 import { useState } from "react";
 
 const Body = () => {
-
-  const [isModalOpen, setIsModalOpen] = useState(false)
+  const [isModalOpen, setIsModalOpen] = useState(false);
   // const [showSideDrawer, setShowSideDrawer] = useState(false)
 
-  const handleOnClose = () => setIsModalOpen(false)
-
+  const handleOnClose = () => setIsModalOpen(false);
 
   return (
-    <section>
+    <section
+      style={isModalOpen ? { overflowY: "hidden" } : { overflow: "auto" }}
+    >
       <div id="setShow" className="flex relative z-10">
-       <Sidebar />
+        <Sidebar />
 
-         {isModalOpen &&  <ProductDetail onClose={handleOnClose} visible={isModalOpen}/>}  
-
+        {isModalOpen && (
+          <ProductDetail onClose={handleOnClose} visible={isModalOpen} />
+        )}
 
         <div className="grid grid-cols-5">
-        {productDatas.slice(0, 15).map((productData) => {
+          {productDatas.slice(0, 15).map((productData) => {
             return (
-          
-            <div className="border bg-[#FFF7FC] w-[12rem] rounded-[4px] mt-[20px] ml-[1.2rem] h-[15rem]">
-              <div className="border w-[7rem] ml-[38px] mt-[1px]">
-                <img src={productData.img} alt="shirt" className="h-[7rem] w-[9rem]" />
-              </div>
-              <p className="text-[12px] ml-[8px] mt-[15px]">
-                {productData.name}
-              </p>
-
-              <p className="ml-[70px] mt-[0.15rem] text-[12px]"> {productData.price} </p>
-
-              <div className="flex mt-8">
-                <div>
-                  <button className=" font-bold w-[86px] p-[7px] text-[11px] border ml-[7px] bg-white text-[#9500D7] rounded-[15px]">
-                    View Details
-                  </button>
+              <div className="border bg-[#FFF7FC] w-[12rem] rounded-[4px] mt-[20px] ml-[1.2rem] h-[15rem]">
+                <div className="border w-[7rem] ml-[38px] mt-[1px]">
+                  <img
+                    src={productData.img}
+                    alt="shirt"
+                    className="h-[7rem] w-[9rem]"
+                  />
                 </div>
+                <p className="text-[12px] ml-[8px] mt-[15px]">
+                  {productData.name}
+                </p>
 
-                <div>
-                  <button onClick={() => setIsModalOpen(true)} className=" border font-bold w-[86px] p-[7px] text-[11px] ml-[11px] bg-[#9500D7] text-white rounded-[15px]">
-                    Place Order
-                  </button>
+                <p className="ml-[70px] mt-[0.15rem] text-[12px]">
+                  {" "}
+                  {productData.price}{" "}
+                </p>
+
+                <div className="flex mt-8">
+                  <div>
+                    <button className=" font-bold w-[86px] p-[7px] text-[11px] border ml-[7px] bg-white text-[#9500D7] rounded-[15px]">
+                      View Details
+                    </button>
+                  </div>
+
+                  <div>
+                    <button
+                      onClick={() => setIsModalOpen(true)}
+                      className=" border font-bold w-[86px] p-[7px] text-[11px] ml-[11px] bg-[#9500D7] text-white rounded-[15px]"
+                    >
+                      Place Order
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-       
-        )   
-    })}
-    </div>
+            );
+          })}
+        </div>
       </div>
 
       <div className="">
