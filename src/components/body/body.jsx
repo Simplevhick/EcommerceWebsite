@@ -2,8 +2,8 @@
 import { Link } from "react-router-dom";
 import productDatas from "../../productDatas";
 import Sidebar from "../Sidebar";
-import ProductDetail from "../product/ProductDetail";
 import { useState } from "react";
+import PlaceOrder from "../product/placeOrder";
 
 const Body = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -13,13 +13,15 @@ const Body = () => {
 
   return (
     <section>
-      <div id="setShow" style={isModalOpen ? {overflowY: 'hidden'}: {overflowY: 'auto'}} className="flex relative z-10">
-       <Sidebar />
-
-         {isModalOpen &&  <ProductDetail onClose={handleOnClose} visible={isModalOpen}/>}  
+      <div
+        id="setShow"
+        style={isModalOpen ? { overflowY: "hidden" } : { overflowY: "auto" }}
+        className="flex"
+      >
+        <Sidebar />
 
         {isModalOpen && (
-          <ProductDetail onClose={handleOnClose} visible={isModalOpen} />
+          <PlaceOrder onClose={handleOnClose} visible={isModalOpen} />
         )}
 
         <div className="grid grid-cols-5">
@@ -44,9 +46,12 @@ const Body = () => {
 
                 <div className="flex mt-8">
                   <div>
-                    <button className=" font-bold w-[86px] p-[7px] text-[11px] border ml-[7px] bg-white text-[#9500D7] rounded-[15px]">
+                    <Link
+                      to={`/product/${productData.id}`}
+                      className=" font-bold w-[86px] p-[7px] text-[11px] border ml-[7px] bg-white text-[#9500D7] rounded-[15px]"
+                    >
                       View Details
-                    </button>
+                    </Link>
                   </div>
 
                   <div>
