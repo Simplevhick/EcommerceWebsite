@@ -5,8 +5,7 @@ import { useState } from "react";
 import { PiCaretDownBold } from "react-icons/pi";
 import { PiCaretUpBold } from "react-icons/pi";
 import { FaQuestion } from "react-icons/fa";
-
-
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +15,13 @@ const Header = () => {
     <header>
       <div className="flex w-[80rem] h-[95px] bg-[#FFF7FC] relative z-10">
         <div>
-          <img src={logo} alt="logo" className="w-[160px] h-[90px] mt-2 ml-10" />
+          <Link to="/">
+            <img
+              src={logo}
+              alt="logo"
+              className="w-[160px] h-[90px] mt-2 ml-10"
+            />
+          </Link>
         </div>
 
         <div className="space-x-6">
@@ -36,7 +41,7 @@ const Header = () => {
 
         <div className="flex">
           <div>
-            <BsPerson className="ml-[80px] mt-[32px] font-bold text-lg"/>
+            <BsPerson className="ml-[80px] mt-[32px] font-bold text-lg" />
           </div>
 
           <div>
@@ -69,7 +74,7 @@ const Header = () => {
 
         <div className="flex">
           <div>
-            <FaQuestion className="ml-[4rem] mt-[30px] font-bold text-lg"/>
+            <FaQuestion className="ml-[4rem] mt-[30px] font-bold text-lg" />
           </div>
 
           <div>
@@ -89,7 +94,9 @@ const Header = () => {
           {isValid && (
             <div className=" py-1 bg-[#eee] h-[100px] rounded-lg w-[8.6rem]">
               <ul>
-                <li className="px-1.5 py-0.1 hover:bg-indigo-500 ">Help Center</li>
+                <li className="px-1.5 py-0.1 hover:bg-indigo-500 ">
+                  Help Center
+                </li>
                 <li className="px-1.5 hover:bg-indigo-500">Place an order</li>
                 <li className="px-1.5 hover:bg-indigo-500">Track an order</li>
                 <li className="px-1.5 hover:bg-indigo-500">Cancel an order</li>
