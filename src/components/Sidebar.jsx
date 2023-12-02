@@ -1,6 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Categories from "./Categories/Categories";
+
+    // const navLinkStyles = ({ isActive }) => {
+    //   return (
+    //     <>
+        
+    //     </>
+    //   )
+    // }
+
 
 const Sidebar = () => {
   return (
@@ -19,29 +28,29 @@ const Sidebar = () => {
         </div>
 
         <div className="flex text-[#4B444D]  mt-2 p-[5px]">
-          <Link to="/categories/gucci" className="text-xs ml-[3px]">
+          <NavLink  to="/categories/gucci" className="text-xs ml-[3px]">
             Gucci
-          </Link>
+          </NavLink>
 
           <p className="ml-[130px] text-xs">999+</p>
         </div>
 
         <div className="flex text-[#4B444D] mt-3">
-          <Link to="/categories/louisvuitton" className="ml-[7px] text-xs">
+          <NavLink  to="/categories/louisvuitton" className="ml-[7px] text-xs">
             Louis Vuitton
-          </Link>
+          </NavLink>
 
-          <p className="ml-[95px] text-xs">999+</p>
+          <p className="ml-[88px] text-xs">999+</p>
         </div>
 
         <div className="flex text-[#4B444D] mt-[8.5px] p-[5px]">
-          <button className="text-xs ml-[3px]">Primark</button>
+          <Link to="/categories/primark"className="text-xs ml-[3px]">Primark</Link>
 
           <p className="ml-[120px] text-xs">999+</p>
         </div>
 
         <div className="flex text-[#4B444D] mt-[8px]">
-          <Link to="/categories/localstores" className="ml-[8px] text-xs">
+          <Link to="/" className="ml-[8px] text-xs">
             Local Stores
           </Link>
 
@@ -71,8 +80,8 @@ const Sidebar = () => {
         </div>
 
         <div className="flex text-[#4B444D] mt-2 p-2">
-          <Link to="/categories/jordans" className="text-xs">
-            Jordans
+          <Link to="/categories/jordan" className="text-xs">
+            Jordan
           </Link>
 
           <p className="ml-[119px] text-xs">999+</p>

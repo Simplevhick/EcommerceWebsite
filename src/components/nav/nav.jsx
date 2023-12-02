@@ -2,6 +2,7 @@ import { useState } from "react";
 import { LiaEllipsisVSolid } from "react-icons/lia"
 import { PiCaretDownBold } from "react-icons/pi";
 import { PiCaretUpBold } from "react-icons/pi";
+import { Link } from "react-router-dom";
 
 
 function Nav() {
@@ -31,7 +32,7 @@ function Nav() {
                 <div>
                     
                     <div className="ml-[40px] text-[#4B444D] mt-[6px]">
-                        <p> Home </p>
+                        <Link to="/"> <p> Home </p> </Link>
                     </div>
 
                 </div>

@@ -7,7 +7,6 @@ import PlaceOrder from "../product/placeOrder";
 
 const Body = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  // const [showSideDrawer, setShowSideDrawer] = useState(false)
 
   const handleOnClose = () => setIsModalOpen(false);
 
@@ -95,7 +94,7 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="border flex mt-12 bg-[#000000]">
+      {/* <div className="border flex mt-12 bg-[#000000]">
         <div className="text-sm ml-6">
           <h5 className="text-base text-[#7B767A]">Footer Items List</h5>
           <p className="text-[#7B767A]">Footer items list</p>
@@ -145,7 +144,7 @@ const Body = () => {
           <p className="text-[#7B767A]">Footer items list</p>
           <p className="text-[#7B767A]">Footer items list</p>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
