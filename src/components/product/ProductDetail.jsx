@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import productDatas from "../../productDatas";
 import { useParams } from "react-router-dom";
+import ProductFooter from "../productFooter/productFooter";
+
 
 const ProductDetail = () => {
+  // const [ newPage, setNewPage ] = useState(false)
+
+
   const { id } = useParams();
 
   const filteredProduct = productDatas.filter((product) => product.id == id);
@@ -85,25 +90,8 @@ const ProductDetail = () => {
               </div>
             </div>
           </div>
-          
-          <div className="border w-[75.5rem] ml-[27px] mt-[23px]">
-            <div className="flex bg-[#EADFEA]">
-              <div className="flex items-start justify-start bg-[#FFD7EF]">
-                <button className="border-2 flex text-start text-sm w-[100px] text-[#1D1B1E]">Products Details</button>
-              </div>
-              <div className="flex items-start justify-start bg-[#7D747E]">
-                <button className="border-2 w-[100px] text-start text-sm text-[#1D1B1E]">More Information</button>
-              </div>
-              <div className="flex items-start justify-start bg-[#1D1B1E14]">
-                <button className="border-2 w-[100px] text-[#1D1B1E] text-start text-sm">Customer Reviews</button> 
-              </div>
-            </div>
 
-            <p className="bg-[#FFF7FC]">{product.about} </p>
-            {/* <p className="bg-[#FFF7FC]">This is a black short-sleeved cotton shirt </p>
-            <p className="bg-[#FFF7FC]">This is a black short-sleeve cotton shirt </p>
-            <p className="bg-[#FFF7FC]">This is a black short-sleeve cotton shirt </p> */}
-          </div>
+            <ProductFooter />
         </>
       ))}
     </div>

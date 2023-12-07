@@ -22,9 +22,9 @@ const Body = () => {
         {isModalOpen && (
           <PlaceOrder onClose={handleOnClose} visible={isModalOpen} />
         )}
-
+  
         <div className="grid grid-cols-5">
-          {productDatas.slice(0, 15).map((productData) => {
+           {productDatas.slice(0, 15).map((productData) => {
             return (
               <div className="border bg-[#FFF7FC] w-[12rem] rounded-[4px] mt-[20px] ml-[1.2rem] h-[15rem]">
                 <div className="border w-[7rem] ml-[38px] mt-[1px]">
@@ -94,57 +94,6 @@ const Body = () => {
         </div>
       </div>
 
-      {/* <div className="border flex mt-12 bg-[#000000]">
-        <div className="text-sm ml-6">
-          <h5 className="text-base text-[#7B767A]">Footer Items List</h5>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-        </div>
-
-        <div className="text-sm ml-40">
-          <h5 className="text-base text-[#7B767A]">Footer Items List</h5>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-        </div>
-
-        <div className="text-sm ml-40">
-          <h5 className="text-base text-[#7B767A]">Footer Items List</h5>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-        </div>
-
-        <div className="text-sm ml-40">
-          <h5 className="text-base text-[#7B767A]">Footer Items List</h5>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-        </div>
-
-        <div className="text-sm ml-40">
-          <h5 className="text-base text-[#7B767A]">Footer Items List</h5>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-          <p className="text-[#7B767A]">Footer items list</p>
-        </div>
-      </div> */}
     </section>
   );
 };

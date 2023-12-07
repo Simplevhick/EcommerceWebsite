@@ -12,7 +12,7 @@ function Categories() {
         <Sidebar />
 
     <div className='grid grid-cols-5'>
-{productDatas.filter(product => product.category == brand).map(product => {
+        {productDatas.filter(product => product.category == brand).map(product => {
   return (
     <div className=''>
           <div className="border  bg-[#FFF7FC] w-[12rem] rounded-[4px] mt-[15px] ml-[1.2rem] h-[15rem]"> 
@@ -35,7 +35,7 @@ function Categories() {
                 <div className="flex mt-8">
                   <div>
                     <Link
-                      to
+                      to={`/product/${product.id}`}
                       className=" font-bold w-[86px] p-[7px] text-[11px] border ml-[7px] bg-white text-[#9500D7] rounded-[15px]"
                     >
                       View Details
