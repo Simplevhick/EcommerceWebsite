@@ -1,17 +1,12 @@
 import React, { useState } from "react";
 import productDatas from "../../productDatas";
 import { useParams } from "react-router-dom";
-<<<<<<< HEAD
-import ProductFooter from "../productFooter/productFooter";
-
-=======
-import { useState } from "react";
->>>>>>> 995cfaaab34ba0d281be3b714d001cf6ea4615da
 
 const ProductDetail = () => {
   // const [ newPage, setNewPage ] = useState(false)
 
 
+  
   const { id } = useParams();
 
   const filteredProduct = productDatas.filter((product) => product.id == id);
@@ -153,10 +148,6 @@ const ProductDetail = () => {
               </div>
             </div>
           </div>
-<<<<<<< HEAD
-
-            <ProductFooter />
-=======
           <div className="border w-[75.5rem] ml-[27px] mt-[23px]">
             <div className="flex bg-[#EADFEA]">
               <div className="flex items-start justify-start bg-[#FFD7EF]">
@@ -228,7 +219,6 @@ const ProductDetail = () => {
                 </div>
               ))}
           </div>
->>>>>>> 995cfaaab34ba0d281be3b714d001cf6ea4615da
         </>
       ))}
     </div>
