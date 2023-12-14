@@ -2,9 +2,9 @@ import Img1 from "./assets/shirt.jpg";
 import Img2 from "./assets/crop.jpg";
 import Img3 from "./assets/cami.jpg";
 import Img4 from "./assets/askirt.jpg";
-import Img5 from "./assets/Tote.png";
+import Img5 from "./assets/newest2.png";
 import Img6 from "./assets/hat.JPG";
-import Img7 from "./assets/bag.png";
+import Img7 from "./assets/newest3.png";
 import Img8 from "./assets/ash.jpg";
 import Img9 from "./assets/shar.jpg";
 import Img10 from "./assets/multi.jpg";
@@ -18,24 +18,24 @@ import Img17 from "./assets/ash.jpg";
 import Img18 from "./assets/shirt.jpg";
 import Img19 from "./assets/Frame 12.png";
 import Img20 from "./assets/gcadigan.png";
-import Img21 from "./assets/gbag.png";
-import Img22 from "./assets/gbaggy.png";
-import Img23 from "./assets/gcadigan.png";
+import Img21 from "./assets/newest7.png";
+import Img22 from "./assets/newest8.png";
+import Img23 from "./assets/newest9.png";
 import Img24 from "./assets/ggold.png";
 import Img25 from "./assets/ghat.png";
-import Img26 from "./assets/ginner.png";
-import Img27 from "./assets/glouisvuiton.png";
-import Img28 from "./assets/gpants.png";
+import Img26 from "./assets/newest10.png";
+import Img27 from "./assets/newest14.png";
+import Img28 from "./assets/newest16.png";
 import Img29 from "./assets/gpinkpurse.png";
 import Img30 from "./assets/gpurse.png";
 import Img31 from "./assets/groundneck.png";
-import Img32 from "./assets/gshinygown.png";
-import Img33 from "./assets/gtote.png";
+import Img32 from "./assets/newest13.png";
+import Img33 from "./assets/newest17.png";
 import Img34 from "./assets/gwinter.png";
 import Img35 from "./assets/groundneck.png";
-import Img36 from "./assets/dcardigan.png";
-import Img37 from "./assets/dgucci.png";
-import Img38 from "./assets/dguccibelt.png";
+import Img36 from "./assets/newest18.png";
+import Img37 from "./assets/newest19.png";
+import Img38 from "./assets/newest20.png";
 import Img39 from "./assets/dgucciglass.png";
 import Img40 from "./assets/dlouisvuitton.png";
 import Img41 from "./assets/dplus.png";
@@ -135,6 +135,7 @@ import Img134 from "./assets/local13.png";
 import Img135 from "./assets/local14.png";
 import Img136 from "./assets/local15.png";
 
+
 const productDatas = [
   {
     id: 1,
@@ -149,21 +150,21 @@ const productDatas = [
     customers_reviews: [
       {
         id: 1,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I really like this Shirt cause of its quality.",
       },
       {
         id: 2,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
       },
       {
         id: 3,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
       },
     ],
     more_info: [
       {
         id: 1,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "For more Enquiries Call: 09023203254.",
       },
     ],
   },
@@ -171,7 +172,7 @@ const productDatas = [
     id: 2,
     img: Img2,
     name: "Black Plain open-stomach ",
-    price: "#17,500",
+    price: "#20,500",
     productInfo: "This is a black-sleeve",
     category: "luios",
     color: "black",
@@ -179,21 +180,21 @@ const productDatas = [
     customers_reviews: [
       {
         id: 1,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I really like this Shirt cause of its quality.",
       },
       {
         id: 2,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
       },
       {
         id: 3,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
       },
     ],
     more_info: [
       {
         id: 1,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "For more Enquiries Call: 09023203254.",
       },
     ],
   },
@@ -201,66 +202,86 @@ const productDatas = [
     id: 3,
     img: Img3,
     name: "Black Plain single-singlet-show  ",
-    price: 17500,
+    price: "#22,500",
     productInfo: "This is a black-sleeve",
     category: "dolce&gabbana",
     color: "red",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 4,
     img: Img4,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#10,500",
     productInfo: "This is a black-sleeve",
     category: "dolce&gabbana",
     color: "black",
     customers_reviews: [
       {
         id: 1,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I really like this Shirt cause of its quality.",
       },
       {
         id: 2,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
       },
       {
         id: 3,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
       },
     ],
     more_info: [
       {
         id: 1,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "For more Enquiries Call: 09023203254.",
       },
     ],
   },
   {
     id: 5,
     img: Img5,
-    name: "Black dot Plain Tote-Handbag ",
-    price: 17500,
+    name: "Colored sneeker shoes jordan ",
+    price: "#11,500",
     productInfo: "This is a black-sleeve",
     category: "dolce&gabbana",
     color: "black",
     customers_reviews: [
       {
         id: 1,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I really like this Shirt cause of its quality.",
       },
       {
         id: 2,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
       },
       {
         id: 3,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
       },
     ],
     more_info: [
       {
         id: 1,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "For more Enquiries Call: 09023203254.",
       },
     ],
   },
@@ -268,57 +289,57 @@ const productDatas = [
     id: 6,
     img: Img6,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#12,300",
     productInfo: "This is a black-sleeve",
     category: "louisvuitton",
     color: "black",
     customers_reviews: [
       {
         id: 1,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I really like this Shirt cause of its quality.",
       },
       {
         id: 2,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
       },
       {
         id: 3,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
       },
     ],
     more_info: [
       {
         id: 1,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "For more Enquiries Call: 09023203254.",
       },
     ],
   },
   {
     id: 7,
     img: Img7,
-    name: "Black Plain button-down shirt ",
-    price: 17500,
+    name: "German rainbow nike hot(flame) ",
+    price: "#13,500",
     productInfo: "This is a black-sleeve",
     category: "louisvuitton",
     color: "black",
     customers_reviews: [
       {
         id: 1,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I really like this Shirt cause of its quality.",
       },
       {
         id: 2,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
       },
       {
         id: 3,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
       },
     ],
     more_info: [
       {
         id: 1,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "For more Enquiries Call: 09023203254.",
       },
     ],
   },
@@ -326,28 +347,28 @@ const productDatas = [
     id: 8,
     img: Img8,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#12,000",
     productInfo: "This is a black-sleeve",
     category: "louisvuitton",
     color: "black",
     customers_reviews: [
       {
         id: 1,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I really like this Shirt cause of its quality.",
       },
       {
         id: 2,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
       },
       {
         id: 3,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
       },
     ],
     more_info: [
       {
         id: 1,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "For more Enquiries Call: 09023203254.",
       },
     ],
   },
@@ -355,28 +376,28 @@ const productDatas = [
     id: 9,
     img: Img9,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#13,200",
     productInfo: "This is a black-sleeve",
     category: "louisvuitton",
     color: "black",
     customers_reviews: [
       {
         id: 1,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I really like this Shirt cause of its quality.",
       },
       {
         id: 2,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
       },
       {
         id: 3,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
       },
     ],
     more_info: [
       {
         id: 1,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "For more Enquiries Call: 09023203254.",
       },
     ],
   },
@@ -384,28 +405,28 @@ const productDatas = [
     id: 10,
     img: Img10,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#18,100",
     productInfo: "This is a black-sleeve",
     category: "louisvuitton",
     color: "black",
     customers_reviews: [
       {
         id: 1,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I really like this Shirt cause of its quality.",
       },
       {
         id: 2,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
       },
       {
         id: 3,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
       },
     ],
     more_info: [
       {
         id: 1,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "For more Enquiries Call: 09023203254.",
       },
     ],
   },
@@ -413,28 +434,28 @@ const productDatas = [
     id: 11,
     img: Img11,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#25,000",
     productInfo: "This is a black-sleeve",
     category: "louisvuitton",
     color: "black",
     customers_reviews: [
       {
         id: 1,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I really like this Shirt cause of its quality.",
       },
       {
         id: 2,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
       },
       {
         id: 3,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
       },
     ],
     more_info: [
       {
         id: 1,
-        text: "It all started with a random letter. Several of those were joined forces to create a random word. The words decided to get together and form a random sentence. They decided not to stop there and it wasn't long before a random paragraph had been cobbled together. The question was whether or not they could continue the momentum long enough to create a random short story.",
+        text: "For more Enquiries Call: 09023203254.",
       },
     ],
   },
@@ -442,109 +463,349 @@ const productDatas = [
     id: 12,
     img: Img12,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#22,500",
     productInfo: "This is a black-sleeve",
     category: "louisvuitton",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 13,
     img: Img13,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#14,220",
     productInfo: "This is a black-sleeve",
     category: "louisvuitton",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 14,
     img: Img14,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#12,100",
     productInfo: "This is a black-sleeve",
     category: "louisvuitton",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 15,
     img: Img15,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#11,500",
     productInfo: "This is a black-sleeve",
     category: "louisvuitton",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 16,
     img: Img16,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#12,500",
     productInfo: "This is a black-sleeve",
     category: "louisvuitton",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 17,
     img: Img17,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#13,200",
     productInfo: "This is a black-sleeve",
     category: "louisvuitton",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 18,
     img: Img18,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#15,300",
     productInfo: "This is a black-sleeve",
     category: "louisvuitton",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 19,
     img: Img19,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#19,200",
     productInfo: "This is a black-sleeve",
     category: "louisvuitton",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 20,
     img: Img20,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#23,500",
     productInfo: "This is a black-sleeve",
     category: "louisvuitton",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 21,
     img: Img21,
-    name: "Double color golden shiny bag ",
-    price: "#50,200",
+    name: "Double flat soft shoes colored",
+    price: "#30,200",
     productInfo: "This is a black-sleeve",
     category: "dolce&gabbana",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 22,
     img: Img22,
-    name: "Carton color Plain baggy-pants ",
-    price: "#90,000",
+    name: "Black Shades with wooden lens",
+    price: "#40,000",
     productInfo: "This is a black-sleeve",
     category: "dolce&gabbana",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 23,
     img: Img23,
-    name: "winter cadigan-for outside ",
+    name: "D&G packet shirt for men only",
     price: "#25,700",
     productInfo: "This is a black-sleeve",
     category: "dolce&gabbana",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 24,
@@ -554,6 +815,26 @@ const productDatas = [
     productInfo: "This is a black-sleeve",
     category: "dolce&gabbana",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 25,
@@ -563,24 +844,84 @@ const productDatas = [
     productInfo: "This is a black-sleeve",
     category: "dolce&gabbana",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 26,
     img: Img26,
-    name: "Beautiful female inner camisol",
-    price: "#70,000",
+    name: "Dope white t-shirt short-sleeve",
+    price: "#20,000",
     productInfo: "This is a black-sleeve",
     category: "dolce&gabbana",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 27,
     img: Img27,
-    name: "Beautiful louis vuitton bag ",
-    price: "#60,000",
+    name: "Beautiful London White Gown  ",
+    price: "#30,000",
     productInfo: "This is a black-sleeve",
     category: "dolce&gabbana",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 28,
@@ -590,6 +931,26 @@ const productDatas = [
     productInfo: "This is a black-sleeve",
     category: "dolce&gabbana",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 29,
@@ -599,6 +960,26 @@ const productDatas = [
     productInfo: "This is a black-sleeve",
     category: "dolce&gabbana",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 30,
@@ -608,6 +989,26 @@ const productDatas = [
     productInfo: "This is a black-sleeve",
     category: "dolce&gabbana",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 31,
@@ -617,24 +1018,84 @@ const productDatas = [
     productInfo: "This is a black-sleeve",
     category: "dolce&gabbana",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 32,
     img: Img32,
-    name: "Nicely-done shiny female dress",
+    name: "Flair pitch gown from Las Vegas",
     price: "#20,000",
     productInfo: "This is a black-sleeve",
     category: "dolce&gabbana",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 33,
     img: Img33,
-    name: "White jacket shiny and down ",
-    price: "#55,500",
+    name: "Red simp cap with curved edge",
+    price: "#35,500",
     productInfo: "This is a black-sleeve",
     category: "gucci",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 34,
@@ -644,924 +1105,2984 @@ const productDatas = [
     productInfo: "This is a black-sleeve",
     category: "gucci",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 35,
     img: Img35,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#16,000",
     productInfo: "This is a black-sleeve",
     category: "gucci",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 36,
     img: Img36,
-    name: "Black Plain button-down shirt ",
-    price: 17500,
+    name: "Golden gucci dope cowboy hat",
+    price: "#14,310",
     productInfo: "This is a black-sleeve",
     category: "gucci",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 37,
     img: Img37,
-    name: "Black Plain button-down shirt ",
-    price: 17500,
+    name: "Black dope gucci shades raw",
+    price: "#16,900",
     productInfo: "This is a black-sleeve",
     category: "gucci",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 38,
     img: Img38,
-    name: "Black Plain button-down shirt ",
-    price: 17500,
+    name: "Black Plain button-down skirt ",
+    price: "#22,200",
     productInfo: "This is a black-sleeve",
     category: "gucci",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 39,
     img: Img39,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#44,500",
     productInfo: "This is a black-sleeve",
     category: "gucci",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 40,
     img: Img40,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#28,000",
     productInfo: "This is a black-sleeve",
     category: "gucci",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 41,
     img: Img41,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#13,000",
     productInfo: "This is a black-sleeve",
     category: "gucci",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 42,
     img: Img42,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#36,200",
     productInfo: "This is a black-sleeve",
     category: "gucci",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 43,
     img: Img43,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#22,000",
     productInfo: "This is a black-sleeve",
     category: "gucci",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 44,
     img: Img44,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#55,000",
     productInfo: "This is a black-sleeve",
     category: "gucci",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 45,
     img: Img45,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#88,000",
     productInfo: "This is a black-sleeve",
     category: "gucci",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 46,
     img: Img46,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#15,000",
     productInfo: "This is a black-sleeve",
     category: "gucci",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 47,
     img: Img47,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#12,000",
     productInfo: "This is a black-sleeve",
     category: "primark",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 48,
     img: Img48,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#55,000",
     productInfo: "This is a black-sleeve",
     category: "primark",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 49,
     img: Img49,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#97,000",
     productInfo: "This is a black-sleeve",
     category: "primark",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 50,
     img: Img50,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "17,500",
     productInfo: "This is a black-sleeve",
     category: "primark",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 51,
     img: Img51,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "20,000",
     productInfo: "This is a black-sleeve",
     category: "primark",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 52,
     img: Img52,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#12,000",
     productInfo: "This is a black-sleeve",
     category: "primark",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 53,
     img: Img53,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#13,890",
     productInfo: "This is a black-sleeve",
     category: "primark",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 54,
     img: Img54,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "33,000",
     productInfo: "This is a black-sleeve",
     category: "primark",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 55,
     img: Img55,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#18,430",
     productInfo: "This is a black-sleeve",
     category: "primark",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 56,
     img: Img56,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#154,000",
     productInfo: "This is a black-sleeve",
     category: "primark",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 57,
     img: Img57,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#16,100",
     productInfo: "This is a black-sleeve",
     category: "primark",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 58,
     img: Img58,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#56,000",
     productInfo: "This is a black-sleeve",
     category: "primark",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 59,
     img: Img59,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#32,000",
     productInfo: "This is a black-sleeve",
     category: "primark",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 60,
     img: Img60,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "25,000",
     productInfo: "This is a black-sleeve",
     category: "primark",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 61,
     img: Img61,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#16,330",
     productInfo: "This is a black-sleeve",
     category: "primark",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 62,
     img: Img62,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#12,000",
     productInfo: "This is a black-sleeve",
     category: "addidas",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 63,
     img: Img63,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#14,200",
     productInfo: "This is a black-sleeve",
     category: "addidas",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 64,
     img: Img64,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#15,300",
     productInfo: "This is a black-sleeve",
     category: "addidas",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 65,
     img: Img65,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "20,300",
     productInfo: "This is a black-sleeve",
     category: "addidas",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 66,
     img: Img66,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#13,200",
     productInfo: "This is a black-sleeve",
     category: "addidas",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 67,
     img: Img67,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#23,000",
     productInfo: "This is a black-sleeve",
     category: "addidas",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 68,
     img: Img68,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#12,200",
     productInfo: "This is a black-sleeve",
     category: "addidas",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 69,
     img: Img69,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#13,900",
     productInfo: "This is a black-sleeve",
     category: "addidas",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 70,
     img: Img70,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#32,200",
     productInfo: "This is a black-sleeve",
     category: "addidas",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 71,
     img: Img71,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#16,800",
     productInfo: "This is a black-sleeve",
     category: "addidas",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 72,
     img: Img72,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "33,210",
     productInfo: "This is a black-sleeve",
     category: "addidas",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 73,
     img: Img73,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#22,000",
     productInfo: "This is a black-sleeve",
     category: "addidas",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 74,
     img: Img74,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#54,200",
     productInfo: "This is a black-sleeve",
     category: "addidas",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 75,
     img: Img75,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#13,200",
     productInfo: "This is a black-sleeve",
     category: "addidas",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 76,
     img: Img76,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#12,200",
     productInfo: "This is a black-sleeve",
     category: "addidas",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 77,
     img: Img77,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#23,220",
     productInfo: "This is a black-sleeve",
     category: "ego",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 78,
     img: Img78,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#21,600",
     productInfo: "This is a black-sleeve",
     category: "ego",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 79,
     img: Img79,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#23,4000",
     productInfo: "This is a black-sleeve",
     category: "ego",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 80,
     img: Img80,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#16,400",
     productInfo: "This is a black-sleeve",
     category: "ego",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 81,
     img: Img81,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#12,000",
     productInfo: "This is a black-sleeve",
     category: "ego",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 82,
     img: Img82,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#21,200",
     productInfo: "This is a black-sleeve",
     category: "ego",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 83,
     img: Img83,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#12,220",
     productInfo: "This is a black-sleeve",
     category: "ego",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 84,
     img: Img84,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#13,000",
     productInfo: "This is a black-sleeve",
     category: "ego",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 85,
     img: Img85,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#18,500",
     productInfo: "This is a black-sleeve",
     category: "ego",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 86,
     img: Img86,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#14,700",
     productInfo: "This is a black-sleeve",
     category: "ego",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 87,
     img: Img87,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#15,200",
     productInfo: "This is a black-sleeve",
     category: "ego",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 88,
     img: Img88,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#24,300",
     productInfo: "This is a black-sleeve",
     category: "ego",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 89,
     img: Img89,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#12,300",
     productInfo: "This is a black-sleeve",
     category: "ego",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 90,
     img: Img90,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#13,200",
     productInfo: "This is a black-sleeve",
     category: "ego",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 91,
     img: Img91,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#14,200",
     productInfo: "This is a black-sleeve",
     category: "ego",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this Shirt cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 92,
     img: Img92,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#24,330",
     productInfo: "This is a black-sleeve",
     category: "jordan",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like cloty causse of its quaility.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 93,
     img: Img93,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#21,300",
     productInfo: "This is a black-sleeve",
     category: "jordan",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 94,
     img: Img94,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#21,350",
     productInfo: "This is a black-sleeve",
     category: "jordan",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 95,
     img: Img95,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#12,950",
     productInfo: "This is a black-sleeve",
     category: "jordan",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 96,
     img: Img96,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#14,800",
     productInfo: "This is a black-sleeve",
     category: "jordan",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 97,
     img: Img97,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#13,200",
     productInfo: "This is a black-sleeve",
     category: "jordan",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 98,
     img: Img98,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#78,000",
     productInfo: "This is a black-sleeve",
     category: "jordan",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 99,
     img: Img99,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#13,200",
     productInfo: "This is a black-sleeve",
     category: "jordan",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 100,
     img: Img100,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#21,200",
     productInfo: "This is a black-sleeve",
     category: "jordan",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 101,
     img: Img101,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#32,000",
     productInfo: "This is a black-sleeve",
     category: "jordan",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 102,
     img: Img102,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#23,200",
     productInfo: "This is a black-sleeve",
     category: "jordan",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 103,
     img: Img103,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#12,900",
     productInfo: "This is a black-sleeve",
     category: "jordan",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 104,
     img: Img104,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#13,200",
     productInfo: "This is a black-sleeve",
     category: "jordan",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this ppoduct cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 105,
     img: Img105,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#13,200",
     productInfo: "This is a black-sleeve",
     category: "jordan",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 106,
     img: Img106,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#12,200",
     productInfo: "This is a black-sleeve",
     category: "jordan",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 107,
     img: Img107,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#17,300",
     productInfo: "This is a black-sleeve",
     category: "nike",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 108,
     img: Img108,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#24,000",
     productInfo: "This is a black-sleeve",
     category: "nike",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 109,
     img: Img109,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#21,100",
     productInfo: "This is a black-sleeve",
     category: "nike",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 110,
     img: Img110,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#12,200",
     productInfo: "This is a black-sleeve",
     category: "nike",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 111,
     img: Img111,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#43,300",
     productInfo: "This is a black-sleeve",
     category: "nike",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 112,
     img: Img112,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#12,300",
     productInfo: "This is a black-sleeve",
     category: "nike",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 113,
     img: Img113,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#12,220",
     productInfo: "This is a black-sleeve",
     category: "nike",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 114,
     img: Img114,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#13,200",
     productInfo: "This is a black-sleeve",
     category: "nike",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 115,
     img: Img115,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#11,200",
     productInfo: "This is a black-sleeve",
     category: "nike",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 116,
     img: Img116,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#23,200",
     productInfo: "This is a black-sleeve",
     category: "nike",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 117,
     img: Img117,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#44,300",
     productInfo: "This is a black-sleeve",
     category: "nike",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 118,
     img: Img118,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#12,201",
     productInfo: "This is a black-sleeve",
     category: "nike",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 119,
     img: Img119,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#13,200",
     productInfo: "This is a black-sleeve",
     category: "nike",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 120,
     img: Img120,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#32,200",
     productInfo: "This is a black-sleeve",
     category: "nike",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 121,
     img: Img121,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#15,200",
     productInfo: "This is a black-sleeve",
     category: "nike",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 122,
     img: Img122,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#16,200",
     productInfo: "This is a black-sleeve",
     category: "localstores",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 123,
     img: Img123,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "13,200",
     productInfo: "This is a black-sleeve",
     category: "localstores",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 124,
     img: Img124,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "18,200",
     productInfo: "This is a black-sleeve",
     category: "localstores",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 125,
     img: Img125,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#12,200",
     productInfo: "This is a black-sleeve",
     category: "localstores",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 126,
     img: Img126,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#32,200",
     productInfo: "This is a black-sleeve",
     category: "localstores",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 127,
     img: Img127,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#13,200",
     productInfo: "This is a black-sleeve",
     category: "localstores",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 128,
     img: Img128,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#17,200",
     productInfo: "This is a black-sleeve",
     category: "localstores",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 129,
     img: Img129,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#43,200",
     productInfo: "This is a black-sleeve",
     category: "localstores",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 130,
     img: Img130,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#12,200",
     productInfo: "This is a black-sleeve",
     category: "localstores",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 131,
     img: Img131,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#18,200",
     productInfo: "This is a black-sleeve",
     category: "localstores",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 132,
     img: Img132,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#25,000",
     productInfo: "This is a black-sleeve",
     category: "localstores",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 133,
     img: Img133,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#11,200",
     productInfo: "This is a black-sleeve",
     category: "localstores",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 134,
     img: Img134,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#13,200",
     productInfo: "This is a black-sleeve",
     category: "localstores",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 135,
     img: Img135,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "#20,500",
     productInfo: "This is a black-sleeve",
     category: "localstores",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],
   },
   {
     id: 136,
     img: Img136,
     name: "Black Plain button-down shirt ",
-    price: 17500,
+    price: "33,200",
     productInfo: "This is a black-sleeve",
     category: "localstores",
     color: "black",
+    customers_reviews: [
+      {
+        id: 1,
+        text: "I really like this product cause of its quality.",
+      },
+      {
+        id: 2,
+        text: "I checked this same product on other sites, I got the same project but different prices and i must say the price here is really flexible. That's one reason i love this guys",
+      },
+      {
+        id: 3,
+        text: "I remember the last time i ordered and wanted to buy a product from one website. They didn't deliver my product till date as we speak...Tried calling and all to no avail.I just wanted to give this guys here a try and then i tried and to my surpise they delivered under 2days as promised.",
+      },
+    ],
+    more_info: [
+      {
+        id: 1,
+        text: "For more Enquiries Call: 09023203254.",
+      },
+    ],  
   },
 ];
 

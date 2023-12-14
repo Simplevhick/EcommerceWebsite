@@ -1,14 +1,18 @@
 import React from "react";
 import Img1 from "../product/shirt.jpg";
 
-const PlaceOrder = ({ visible, onClose }) => {
+const PlaceOrder = ({ pd, visible, onClose }) => {
   if (!visible) return null;
 
   const handleOnClose = (e) => {
     if (e.target.id === "container") onClose();
   };
 
+
+
   return (
+    <>
+    
     <div
       id="container"
       onClick={handleOnClose}
@@ -74,57 +78,10 @@ const PlaceOrder = ({ visible, onClose }) => {
             </div>
           </div>
         </div>
-        {/* <div>
-                <p className="text-[1.9rem] ml-[7.5rem] mt-[20px]">Customer Details : </p>
-               <div>
-                  <label className="ml-[8rem] mt-[30px] text-[20px]">Full Name : *</label>
-                  <div>
-                      <input type="text" className="ml-[7.8rem] border-2 w-[27rem] mt-[10px] border-t-0 border-r-0 border-b-black border-l-0 text-[#FFF7FC]"/>
-                  </div>
-                </div>
-                <div>
-                <label className="ml-[8rem] mt-[50px] text-[20px]">Email : *</label>
-                  <div>
-                    <input type="text"className="ml-[7.8rem] border-2 w-[27rem] mt-[10px] border-t-0 border-r-0 border-b-black border-l-0 text-[#FFF7FC]" />
-                  </div>
-                </div>
-                <div>
-                <label className="ml-[7.5rem] mt-[50px] text-[20px]">Phone Number : *</label>
-                  <div>
-                      <input type="text" className="ml-[7.8rem] border-2 w-[27rem] mt-[10px] border-t-0 border-r-0 border-b-black border-l-0 text-[#FFF7FC]"/>
-                  </div>
-                </div>
-                <div>
-                <label className="ml-[7.5rem] mt-[50px] text-[20px]">Delivery Address : *</label>
-                  <div>
-                    <input type="text" className="ml-[7.8rem] border-2 w-[27rem] mt-[10px] border-t-0 border-r-0 border-b-black border-l-0 text-[#FFF7FC]"/>
-                  </div>
-                </div>
-
-                <div>
-                <label className="ml-[7.5rem] mt-[50px] text-[20px]">Delivery Address : *</label>
-                  <div>
-                    <input type="text" className="ml-[7.8rem] border-2 w-[27rem] mt-[10px] border-t-0 border-r-0 border-b-black border-l-0 text-[#FFF7FC]"/>
-                  </div>
-                </div>
-
-                <div>
-                <label className="ml-[7.5rem] mt-[50px] text-[20px]">Delivery Address : *</label>
-                  <div>
-                    <input type="text" className="ml-[7.8rem] border-2 w-[27rem] mt-[10px] border-t-0 border-r-0 border-b-black border-l-0 text-[#FFF7FC]"/>
-                  </div>
-                </div>
-
-                <div>
-                <label className="ml-[7.5rem] mt-[50px] text-[20px]">Delivery Address : *</label>
-                  <div>
-                    <input type="text" className="ml-[7.8rem] border-2 w-[27rem] mt-[10px] border-t-0 border-r-0 border-b-black border-l-0 text-[#FFF7FC]"/>
-                  </div>
-                </div>       
-
-          </div>   */}
       </div>
     </div>
+
+    </>
   );
 };
 

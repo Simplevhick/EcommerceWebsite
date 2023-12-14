@@ -13,13 +13,13 @@ const Header = () => {
 
   return (
     <header>
-      <div className="flex w-[80rem] h-[95px] bg-[#FFF7FC] relative z-10">
+      <div className="flex w-[80rem] h-[95px] bg-[#FFF7FC] relative z-30">
         <div>
           <Link to="/">
             <img
               src={logo}
               alt="logo"
-              className="w-[160px] h-[90px] mt-2 ml-10"
+              className="w-[160px] h-[90px] mt-2 ml-10 "
             />
           </Link>
         </div>
@@ -59,7 +59,7 @@ const Header = () => {
             )}
           </button>
           {isOpen && (
-            <div className=" bg-[#eee] h-[105px] rounded-lg w-[105px]">
+            <div className=" bg-[#eee] h-[109px] rounded-lg w-[105px] ml-[5px]">
               <ul>
                 <li className="px-2 hover:bg-indigo-500 ">My Account</li>
                 <li className="px-2 hover:bg-indigo-500">Saved Items</li>

@@ -5,7 +5,7 @@ import { PiCaretUpBold } from "react-icons/pi";
 import { Link } from "react-router-dom";
 
 
-function Nav() {
+function Nav({onClose}) {
     const [isValid, setIsValid] = useState(false)
     const [isOpen, setIsOpen] = useState(false)
     const [isActive, setIsActive] = useState(false)
@@ -14,8 +14,28 @@ function Nav() {
     const [isShowing, setIsShowing] = useState(false)
     const [isShown, setIsShown] = useState(false)
     const [isAlerted, setIsAlerted] = useState(false)
-
-
+    const [isThere, setIsThere] = useState(false)
+   
+    const handleOnClose = (e) => {
+        if(e.target.id == "container"){
+            return (
+                <>  
+                  <div id="container" className="absolute group-focus:block top-full min-w-full w-max bg-white shadow-md mt-1 rounded">
+                                 <ul className="text-left boreder rounded">
+                                    <li className="ml-1.5">All Bags </li>
+                                    <Link to="/categories/dolce&gabbana"><li className="ml-1.5 w-[2.5px] hover:bg-[#ffd7ef]">Dolce</li></Link> 
+                                    <Link to="/categories/dolce&gabbana"><li className="ml-1.5 w-[2.5px] hover:bg-[#ffd7ef]">&Gabbana</li></Link> 
+                                    <Link to="/categories/gucci"><li className="ml-1.5">Gucci</li> </Link>
+                                    <Link to="/categories/ego"> <li className="ml-1.5">Ego</li> </Link>
+                                </ul>
+                    </div>
+                </>
+            )
+        }
+        else {
+            return null;
+        }
+      };
 
   return (
     <nav>
@@ -24,7 +44,7 @@ function Nav() {
                 <button> All Catergories </button>
             </div>
 
-            <div className='ml-[10px] mt-[5px] font-bold text-2xl'> 
+            <div className='ml-[10px] mt-[5px] font-bold text-2xl'>         
                 <LiaEllipsisVSolid/> 
             </div>
 
@@ -36,38 +56,25 @@ function Nav() {
                     </div>
 
                 </div>
-
+                    
                         
                 <div className="flex relative z-20">
-                    
-                    <div className="ml-[55px] mt-[6px] text-[#4e4d4e]">
-                        <p> Bags </p>
-                    </div>
-
-                    <div>
-                        <button 
-                            onClick={() => setIsOpen((prev) => !prev)}
-                            className=""
-                            > 
-                            {!isOpen ? (
-                            <PiCaretDownBold className="mt-[9px] ml-[8px]" />
-                            ) : (
-                             <PiCaretUpBold className="mt-[9px] ml-[8px]" />
-                            )}
-                            </button>
-
-                            {isOpen && (
-                            <div className="py-1 bg-[#eee] h-[125px] rounded-lg w-[5.5rem]">
-                                <ul>
+                    <button className="relative flex justify-center items-center bg-white  shadow text-gray-600 rounded focus:ring ring-blue-200 group">  
+                            <p className="px-4">Dropdown</p>
+                            <span className="border-l p-2 hover:bg-green-100">
+                            <PiCaretDownBold />
+                            </span> 
+                            {/* hidden is the text missing for it to go well in the div below*/}
+                            {/* <div id="container" className="absolute group-focus:block top-full min-w-full w-max bg-white shadow-md mt-1 rounded">
+                                 <ul className="text-left boreder rounded">
                                     <li className="ml-1.5">All Bags </li>
-                                    <li className="ml-1.5">Dolce</li>
-                                    <li className="ml-1.5"> &Gabbana </li>
-                                    <li className="ml-1.5">Gucci</li>
-                                    <li className="ml-1.5">Ego</li>
+                                    <Link to="/categories/dolce&gabbana"><li className="ml-1.5 w-[2.5px] hover:bg-[#ffd7ef]">Dolce</li></Link> 
+                                    <Link to="/categories/dolce&gabbana"><li className="ml-1.5 w-[2.5px] hover:bg-[#ffd7ef]">&Gabbana</li></Link> 
+                                    <Link to="/categories/gucci"><li className="ml-1.5">Gucci</li> </Link>
+                                    <Link to="/categories/ego"> <li className="ml-1.5">Ego</li> </Link>
                                 </ul>
-                            </div>
-                        )}    
-                    </div>           
+                            </div> */}
+                    </button>
                 </div>
 
                 
@@ -93,10 +100,11 @@ function Nav() {
                         <div className="py-1 bg-[#eee] h-[149px] rounded-lg w-[7rem]">
                             <ul>
                                 <li className="ml-1.5">All Dresses</li>
-                                <li className="ml-1.5">Gucci</li>
-                                <li className="ml-1.5">Primark</li>
-                                <li className="ml-1.5">Louis Vuitton</li>
-                                <li className="ml-1.5">Dolce & Gabbana </li>
+                             <Link to="/categories/gucci"><li className="ml-1.5">Gucci</li> </Link>
+                             <Link to="/categories/primark"><li className="ml-1.5">Primark</li> </Link>
+                             <Link to="/categories/louisvuitton"><li className="ml-1.5">LouisVuitton</li></Link>
+                             <Link to="/categories/dolce&gabbana"><li className="ml-1.5">Dolce </li> </Link>
+                             <Link to="/categories/dolce&gabbana"><li className="ml-1.5">&Gabbana </li> </Link>
                             </ul>
                         </div>
                         )}
@@ -123,13 +131,12 @@ function Nav() {
                         </button>
 
                             {isActive && (
-                        <div className="py-0.2 bg-[#eee] h-[145px] rounded-lg w-[5.1rem]">
+                        <div className="py-0.2 bg-[#eee] h-[123px] rounded-lg w-[5.1rem]">
                             <ul>
                                 <li className="ml-1.5">All Hats </li>
-                                <li className="ml-1.5">Ego</li>
-                                <li className="ml-1.5">Nike</li>
-                                <li className="ml-1.5">Zara </li>
-                                <li className="ml-1.5">Local Stores </li>
+                            <Link to="/categories/ego"> <li className="ml-1.5">Ego</li> </Link>
+                            <Link to="/categories/nike"> <li className="ml-1.5">Nike</li> </Link>
+                            <Link to="/categories/localstores"> <li className="ml-1.5">Local Stores </li> </Link>
                             </ul>
                         </div>
                         )}
@@ -154,14 +161,13 @@ function Nav() {
                         )}
                         </button>
                             {isClicked && (
-                        <div className="py-0.2 bg-[#eee] h-[145px] rounded-lg w-[8.4rem]">
+                        <div className="py-0.2 bg-[#eee] h-[120px] rounded-lg w-[7.8rem]">
                             <ul>
                                 <li className="ml-1">All Shades </li>
-                                <li className="ml-1">Ego</li>
-                                <li className="ml-1">Dolce & Gabbana </li>
-                                <li className="ml-1">Nike</li>
-                                <li className="ml-1">Zara</li>
-                                <li className="ml-1">Local Stores</li>
+                            <Link to="/categories/ego"> <li className="ml-1">Ego</li> </Link>
+                            <Link to="/categories/dolce&gabbana"><li className="ml-1">Dolce&Gabbana </li> </Link>
+                            <Link to="/categories/nike"> <li className="ml-1">Nike</li> </Link>
+                            <Link to="/categories/localstores"> <li className="ml-1">Local Stores</li> </Link>
                             </ul>
                         </div>
                         )}
@@ -189,10 +195,10 @@ function Nav() {
                         <div className="py-0.2 bg-[#eee] h-[170px] rounded-lg w-[5.3rem]">
                             <ul>
                                 <li className="ml-1">All Shirts </li>
-                                <li className="ml-1">Dolce & Gabbana </li>
-                                <li className="ml-1">Gucci</li>
-                                <li className="ml-1">Primark </li>
-                                <li className="ml-1"> Louis Vuition </li>
+                                <Link to="/categories/dolce&gabbana"> <li className="ml-1">Dolce & Gabbana </li> </Link>
+                                <Link to="/categories/gucci"><li className="ml-1">Gucci</li> </Link>
+                                <Link to="/categories/primark"><li className="ml-1">Primark </li> </Link>
+                                <Link to="/categories/louisvuitton"><li className="ml-1"> Louis Vuition </li> </Link>
                             </ul>
                         </div>
                         )}    
@@ -220,10 +226,10 @@ function Nav() {
                         <div className="py-0.2 bg-[#eee] h-[146px] rounded-lg w-[5.3rem]">
                             <ul>
                                 <li className="ml-1">All Shoes </li>
-                                <li className="ml-1">Adidas </li>
-                                <li className="ml-1">Jordan</li>
-                                <li className="ml-1">Nike </li>
-                                <li className="ml-1"> Local Stores </li>
+                                <Link to="/categories/addidas">   <li className="ml-1">Adidas </li> </Link>
+                                <Link to="/categories/jordan"><li className="ml-1">Jordan</li> </Link>
+                                <Link to="/categories/nike"><li className="ml-1">Nike </li> </Link>
+                                <Link to="/categories/localstores"><li className="ml-1"> Local Stores </li> </Link>
                             </ul>
                         </div>
                         )}    
@@ -251,9 +257,9 @@ function Nav() {
                         <div className="py-0.2 bg-[#eee] h-[100px] rounded-lg w-[8.5rem]">
                             <ul>
                                 <li className="ml-1">All Shirts </li>
-                                <li className="ml-1">Dolce & Gabbana </li>
-                                <li className="ml-1">Gucci</li>
-                                <li className="ml-1"> Louis Vuition </li>
+                                <Link to="/categories/dolce&gabbana"> <li className="ml-1">Dolce & Gabbana </li> </Link>
+                                <Link to="/categories/gucci"> <li className="ml-1">Gucci</li> </Link>
+                                <Link to="/categories/louisvuitton"> <li className="ml-1"> Louis Vuition </li> </Link>
                             </ul>
                         </div>
                         )}   
@@ -278,13 +284,13 @@ function Nav() {
                         )}
                         </button>
                             {isAlerted && (
-                        <div className="py-0.2 bg-[#eee] h-[125px] rounded-lg w-[8.5rem]">
+                        <div className="py-0.2 bg-[#eee] h-[125px] rounded-lg w-[8rem]">
                             <ul>
                                 <li className="ml-1">All Trousers </li>
-                                <li className="ml-1">Dolce & Gabbana </li>
-                                <li className="ml-1">Gucci</li>
-                                <li className="ml-1">Primark </li>
-                                <li className="ml-1"> Louis Vuition </li>
+                                <Link to="/categories/dolce&gabbana"><li className="ml-1">Dolce&Gabbana </li> </Link>
+                                <Link to="/categories/gucci"><li className="ml-1">Gucci</li> </Link>
+                                <Link to="/categories/primark"><li className="ml-1">Primark </li> </Link>
+                                <Link to="/categories/louisvuitton"><li className="ml-1"> LouisVuition </li> </Link>
                             </ul>
                         </div>
                         )}
@@ -298,3 +304,40 @@ function Nav() {
 }
 
 export default Nav;
+
+
+        // <div>
+        //                         <button 
+        //                             onClick={() => setIsOpen((prev) => !prev)}
+        //                             className=""
+        //                             > 
+        //                             {!isOpen ? (
+        //                             <PiCaretDownBold className="mt-[9px] ml-[8px]" />
+        //                             ) : (
+        //                              <PiCaretUpBold className="mt-[9px] ml-[8px]" />
+        //                             )}
+        //                             </button>
+
+        //                             {isOpen && (
+        //                             <div className="py-1 bg-[#eee] h-[125px] rounded-lg w-[5.3rem]">
+        //                                 <ul>
+        //                                     <li className="ml-1.5">All Bags </li>
+        //                                   <Link to="/categories/dolce&gabbana"><li className="ml-1.5 w-[2.5px] hover:bg-[#ffd7ef]">Dolce</li></Link> 
+        //                                   <Link to="/categories/dolce&gabbana"><li className="ml-1.5 w-[2.5px] hover:bg-[#ffd7ef]">&Gabbana</li></Link> 
+        //                                   <Link to="/categories/gucci"><li className="ml-1.5">Gucci</li> </Link>
+        //                                   <Link to="/categories/ego"> <li className="ml-1.5">Ego</li> </Link>
+        //                                 </ul>
+        //                             </div>
+        //                         )}    
+        //                     </div>     
+
+
+
+
+
+
+
+
+    //     <div className="ml-[55px] mt-[6px] text-[#4e4d4e]">
+    //     <p> Bags </p>
+    // </div>
