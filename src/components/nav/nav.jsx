@@ -15,7 +15,9 @@ function Nav({onClose}) {
     const [isShown, setIsShown] = useState(false)
     const [isAlerted, setIsAlerted] = useState(false)
     const [isThere, setIsThere] = useState(false)
-   
+   const [isDropDownOpen, setIsDropDownOpen] = useState(false);
+
+
     const handleOnClose = (e) => {
         if(e.target.id == "container"){
             return (
@@ -57,30 +59,29 @@ function Nav({onClose}) {
 
                 </div>
                     
-                        
-                <div className="flex relative z-20">
-                    <button className="relative flex justify-center items-center bg-white  shadow text-gray-600 rounded focus:ring ring-blue-200 group">  
-                            <p className="px-4">Dropdown</p>
-                            <span className="border-l p-2 hover:bg-green-100">
-                            <PiCaretDownBold />
-                            </span> 
-                            {/* hidden is the text missing for it to go well in the div below*/}
-                            {/* <div id="container" className="absolute group-focus:block top-full min-w-full w-max bg-white shadow-md mt-1 rounded">
-                                 <ul className="text-left boreder rounded">
-                                    <li className="ml-1.5">All Bags </li>
-                                    <Link to="/categories/dolce&gabbana"><li className="ml-1.5 w-[2.5px] hover:bg-[#ffd7ef]">Dolce</li></Link> 
-                                    <Link to="/categories/dolce&gabbana"><li className="ml-1.5 w-[2.5px] hover:bg-[#ffd7ef]">&Gabbana</li></Link> 
-                                    <Link to="/categories/gucci"><li className="ml-1.5">Gucci</li> </Link>
-                                    <Link to="/categories/ego"> <li className="ml-1.5">Ego</li> </Link>
-                                </ul>
-                            </div> */}
-                    </button>
-                </div>
+                <div>
+                    
+                    <div  onMouseOver={() => setIsDropDownOpen(true)}>
+                        <p>Bags  </p>
+                        <span className="mt-[5px] ml-[10px] "> {isDropDownOpen ? <PiCaretDownBold /> : <PiCaretUpBold />} </span>
+                    </div>
+                    
+          
 
-                
+                </div>
+               
+              <div className={`${isDropDownOpen ? "block py-1 bg-[#eee] h-[149px] rounded-lg w-[7rem] " : 
+              "hidden py-1 bg-[#eee] h-[149px] rounded-lg w-[7rem]"}`} onMouseLeave={() => setIsDropDownOpen(false)}>
+                        <ul className="text-left boreder rounded">
+                            <li className="ml-1.5">All Bags </li>
+                            <Link to="/categories/dolce&gabbana"><li className="ml-1.5 w-[2.5px]">Dolce & Gabbana</li></Link> 
+                            <Link to="/categories/gucci"><li className="ml-1.5">Gucci</li> </Link>
+                            <Link to="/categories/ego"> <li className="ml-1.5">Ego</li> </Link>
+                        </ul>
+                    </div>
                 <div className="flex relative z-20">
                     
-                    <div className="ml-[35px] mt-[6px] text-[#4B444D]">
+                    <div className="ml-[35px] mt-[6px] text-[rgb(75,68,77)]">
                         <p> Dresses </p>
                     </div>
 
@@ -341,3 +342,15 @@ export default Nav;
     //     <div className="ml-[55px] mt-[6px] text-[#4e4d4e]">
     //     <p> Bags </p>
     // </div>
+
+
+
+
+// {isDropDownOpen &&     (  <div id="container" className="absolute hidden group-focus:block top-full min-w-full w-max bg-white shadow-md mt-1 rounded">
+//                  <ul className="text-left boreder rounded">
+//                     <li className="ml-1.5">All Bags </li>
+//                     <Link to="/categories/dolce&gabbana"><li className="ml-1.5 w-[2.5px] hover:bg-[#ffd7ef]">Dolce & Gabbana</li></Link> 
+//                     <Link to="/categories/gucci"><li className="ml-1.5">Gucci</li> </Link>
+//                     <Link to="/categories/ego"> <li className="ml-1.5">Ego</li> </Link>
+//                 </ul>
+//             </div>)}

@@ -23,7 +23,7 @@ const Body = () => {
           <PlaceOrder onClose={handleOnClose} visible={isModalOpen} />
         )}
   
-        <div className="grid grid-cols-5">
+        <div className="grid grid-cols-1 sm:grid sm:grid-cols-5">
            {productDatas.slice(0, 15).map((productData) => {
             return (
               <div className="border bg-[#FFF7FC] w-[12rem] rounded-[4px] mt-[20px] ml-[1.2rem] h-[15rem]">
