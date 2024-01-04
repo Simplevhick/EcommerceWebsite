@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <header>
-      <div className="flex w-[80rem] h-[95px] bg-[#FFF7FC] relative z-30">
+      <div className="md:flex w-[80rem] h-[95px] bg-[#FFF7FC] relative z-30">
         <div>
           <Link to="/">
             <img
@@ -33,7 +33,7 @@ const Header = () => {
                 name="search"
                 autoComplete="off"
                 placeholder="Search Products"
-                className="pr-3 pl-10 w-[600px] py-2 font-bold placeholder-grey-500 text-black rounded-3xl border-none ring-2 ring-gray-300 focus:ring-gray-500 focus:ring-2 ml-[90px] mt-6 bg-[#F1E5E7]"
+                className="pr-3 pl-10  py-2 font-bold placeholder-grey-500 text-black rounded-3xl border-none ring-2 ring-gray-300 focus:ring-gray-500 focus:ring-2 ml-[90px] mt-6 bg-[#F1E5E7]"
               />
             </div>
           </form>

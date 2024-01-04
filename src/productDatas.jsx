@@ -38,102 +38,102 @@ import Img37 from "./assets/newest19.png";
 import Img38 from "./assets/newest20.png";
 import Img39 from "./assets/dgucciglass.png";
 import Img40 from "./assets/dlouisvuitton.png";
-import Img41 from "./assets/dplus.png";
+import Img41 from "./assets/cont4.png";
 import Img42 from "./assets/dcoat.png";
-import Img43 from "./assets/dcoatguccishoes.png";
-import Img44 from "./assets/dcollections.png";
+import Img43 from "./assets/cont1.png";
+import Img44 from "./assets/cont2.png";
 import Img45 from "./assets/dgoldguccibag.png";
-import Img46 from "./assets/dguc.png";
+import Img46 from "./assets/cont3.png";
 import Img47 from "./assets/pbigboypolo.png";
 import Img48 from "./assets/pblackshirt.png";
-import Img49 from "./assets/pbrownbag.png";
+import Img49 from "./assets/cont4.png";
 import Img50 from "./assets/pcollection.png";
 import Img51 from "./assets/pjeangown.png";
-import Img52 from "./assets/pjeanjacket.png";
+import Img52 from "./assets/cont6.png";
 import Img53 from "./assets/polo.png";
-import Img54 from "./assets/ppacketshirt.png";
-import Img55 from "./assets/ppink.png";
-import Img56 from "./assets/ppolo.png";
-import Img57 from "./assets/predsuit.png";
-import Img58 from "./assets/proundneck.png";
-import Img59 from "./assets/pfila.png";
-import Img60 from "./assets/pgrey.png";
-import Img61 from "./assets/pred.png";
+import Img54 from "./assets/cont7.png";
+import Img55 from "./assets/cont8.png";
+import Img56 from "./assets/cont9.jpeg";
+import Img57 from "./assets/cont10.jpeg";
+import Img58 from "./assets/cont11.jpeg";
+import Img59 from "./assets/cont12.jpeg";
+import Img60 from "./assets/cont13.jpeg";
+import Img61 from "./assets/cont14.jpeg";
 import Img62 from "./assets/adiddas.png";
-import Img63 from "./assets/adiddas1.png";
-import Img64 from "./assets/adiddas2.png";
-import Img65 from "./assets/adiddas3.png";
-import Img66 from "./assets/adiddas4.png";
-import Img67 from "./assets/adiddas5.png";
+import Img63 from "./assets/cont25.jpeg";
+import Img64 from "./assets/cont24.jpeg";
+import Img65 from "./assets/cont26.jpeg";
+import Img66 from "./assets/cont21.jpeg";
+import Img67 from "./assets/cont27.jpeg";
 import Img68 from "./assets/adiddas6.png";
-import Img69 from "./assets/adiddas7.png";
+import Img69 from "./assets/cont28.jpeg";
 import Img70 from "./assets/adiddas8.png";
 import Img71 from "./assets/adiddas9.png";
-import Img72 from "./assets/adiddas10.png";
-import Img73 from "./assets/adiddas11.png";
-import Img74 from "./assets/adiddas2.png";
-import Img75 from "./assets/adiddas13.png";
-import Img76 from "./assets/adiddas14.png";
-import Img77 from "./assets/ego1.png";
-import Img78 from "./assets/ego2.png";
-import Img79 from "./assets/ego3.png";
-import Img80 from "./assets/ego4.png";
-import Img81 from "./assets/ego5.png";
-import Img82 from "./assets/ego6.png";
-import Img83 from "./assets/ego7.png";
-import Img84 from "./assets/ego8.png";
-import Img85 from "./assets/ego9.png";
-import Img86 from "./assets/ego10.png";
-import Img87 from "./assets/ego11.png";
-import Img88 from "./assets/ego12.png";
-import Img89 from "./assets/ego13.png";
-import Img90 from "./assets/ego14.png";
+import Img72 from "./assets/cont30.jpeg";
+import Img73 from "./assets/cont29.jpeg";
+import Img74 from "./assets/cont31.jpeg";
+import Img75 from "./assets/cont32.jpeg";
+import Img76 from "./assets/cont33.png";
+import Img77 from "./assets/eg1.jpeg";
+import Img78 from "./assets/eg2.jpeg";
+import Img79 from "./assets/eg3.jpeg";
+import Img80 from "./assets/eg4.jpeg";
+import Img81 from "./assets/eg5.jpeg";
+import Img82 from "./assets/eg6.jpeg";
+import Img83 from "./assets/eg7.jpeg";
+import Img84 from "./assets/eg8.jpeg";
+import Img85 from "./assets/eg9.jpeg";
+import Img86 from "./assets/eg10.jpeg";
+import Img87 from "./assets/eg11.jpeg";
+import Img88 from "./assets/eg12.jpeg";
+import Img89 from "./assets/eg13.jpeg";
+import Img90 from "./assets/eg14.jpeg";
 import Img91 from "./assets/ego15.png";
-import Img92 from "./assets/jordan1.png";
-import Img93 from "./assets/jordan2.png";
+import Img92 from "./assets/jd1.jpeg";
+import Img93 from "./assets/jd.jpeg";
 import Img94 from "./assets/jordan3.png";
-import Img95 from "./assets/jordan4.png";
-import Img96 from "./assets/jordan5.png";
-import Img97 from "./assets/jordan6.png";
+import Img95 from "./assets/jd2.jpeg";
+import Img96 from "./assets/jd3.jpeg";
+import Img97 from "./assets/jd4.jpeg";
 import Img98 from "./assets/jordan7.png";
-import Img99 from "./assets/jordan8.png";
+import Img99 from "./assets/jd5.jpeg";
 import Img100 from "./assets/jordan9.png";
-import Img101 from "./assets/jordan10.png";
-import Img102 from "./assets/jordan11.png";
-import Img103 from "./assets/jordan12.png";
-import Img104 from "./assets/jordan13.png";
-import Img105 from "./assets/jordan14.png";
-import Img106 from "./assets/jordan15.png";
-import Img107 from "./assets/nike1.png";
-import Img108 from "./assets/nike2.png";
-import Img109 from "./assets/nike3.png";
-import Img110 from "./assets/nike4.png";
-import Img111 from "./assets/nike5.png";
-import Img112 from "./assets/nike6.png";
-import Img113 from "./assets/nike7.png";
-import Img114 from "./assets/nike8.png";
-import Img115 from "./assets/nike9.png";
-import Img116 from "./assets/nike10.png";
-import Img117 from "./assets/nike11.png";
-import Img118 from "./assets/nike12.png";
-import Img119 from "./assets/nike13.png";
+import Img101 from "./assets/jd6.jpeg";
+import Img102 from "./assets/jd8.jpeg";
+import Img103 from "./assets/jd.7.jpeg";
+import Img104 from "./assets/jd10.jpeg";
+import Img105 from "./assets/jd9.jpeg";
+import Img106 from "./assets/jd12.jpeg";
+import Img107 from "./assets/nke1.jpeg";
+import Img108 from "./assets/nke2.jpeg";
+import Img109 from "./assets/nke3.jpeg";
+import Img110 from "./assets/nke4.jpeg";
+import Img111 from "./assets/nke5.jpeg";
+import Img112 from "./assets/nke6.jpeg";
+import Img113 from "./assets/nke7.jpeg";
+import Img114 from "./assets/nke8.jpeg";
+import Img115 from "./assets/nke9.jpeg";
+import Img116 from "./assets/nke10.jpeg";
+import Img117 from "./assets/nke12.jpeg";
+import Img118 from "./assets/nke11.jpeg";
+import Img119 from "./assets/nke13.jpeg";
 import Img120 from "./assets/nike14.png";
 import Img121 from "./assets/nike15.png";
-import Img122 from "./assets/local1.png";
-import Img123 from "./assets/local2.png";
+import Img122 from "./assets/cont15.jpeg";
+import Img123 from "./assets/cont16.jpeg";
 import Img124 from "./assets/local3.png";
-import Img125 from "./assets/local4.png";
-import Img126 from "./assets/local5.png";
-import Img127 from "./assets/local6.png";
+import Img125 from "./assets/cont17.jpeg";
+import Img126 from "./assets/cont18.jpeg";
+import Img127 from "./assets/cont19.jpeg";
 import Img128 from "./assets/local7.png";
-import Img129 from "./assets/local8.png";
-import Img130 from "./assets/local9.png";
+import Img129 from "./assets/cont20.jpeg";
+import Img130 from "./assets/cont21.jpeg";
 import Img131 from "./assets/local10.png";
-import Img132 from "./assets/local11.png";
+import Img132 from "./assets/cont22.jpeg";
 import Img133 from "./assets/local12.png";
 import Img134 from "./assets/local13.png";
 import Img135 from "./assets/local14.png";
-import Img136 from "./assets/local15.png";
+import Img136 from "./assets/cont23.jpeg";
 
 
 const productDatas = [
@@ -1303,9 +1303,9 @@ const productDatas = [
   {
     id: 41,
     img: Img41,
-    name: "Black Plain button-down shirt ",
+    name: "White Dope round-neck short",
     price: "#13,000",
-    productInfo: "This is a black-sleeve",
+    productInfo: "This is a white-dope round neck",
     category: "gucci",
     color: "black",
     customers_reviews: [
@@ -1334,7 +1334,7 @@ const productDatas = [
     img: Img42,
     name: "Black Plain button-down shirt ",
     price: "#36,200",
-    productInfo: "This is a black-sleeve",
+    productInfo: "This is a black plain shirt",
     category: "gucci",
     color: "black",
     customers_reviews: [
@@ -1361,9 +1361,9 @@ const productDatas = [
   {
     id: 43,
     img: Img43,
-    name: "Black Plain button-down shirt ",
+    name: "White dope sneekers with red",
     price: "#22,000",
-    productInfo: "This is a black-sleeve",
+    productInfo: "This is a white sneeker with red",
     category: "gucci",
     color: "black",
     customers_reviews: [
@@ -1390,9 +1390,9 @@ const productDatas = [
   {
     id: 44,
     img: Img44,
-    name: "Black Plain button-down shirt ",
+    name: "Dope Shoes with a touch of red",
     price: "#55,000",
-    productInfo: "This is a black-sleeve",
+    productInfo: "This is a Dope shoe",
     category: "gucci",
     color: "black",
     customers_reviews: [
@@ -1421,7 +1421,7 @@ const productDatas = [
     img: Img45,
     name: "Black Plain button-down shirt ",
     price: "#88,000",
-    productInfo: "This is a black-sleeve",
+    productInfo: "This is a black-plain shirt",
     category: "gucci",
     color: "black",
     customers_reviews: [
@@ -1448,9 +1448,9 @@ const productDatas = [
   {
     id: 46,
     img: Img46,
-    name: "Black Plain button-down shirt ",
-    price: "#15,000",
-    productInfo: "This is a black-sleeve",
+    name: "Brown hats with curved edges",
+    price: "#35,000",
+    productInfo: "This is a Brown-hat with edges",
     category: "gucci",
     color: "black",
     customers_reviews: [
@@ -1535,9 +1535,9 @@ const productDatas = [
   {
     id: 49,
     img: Img49,
-    name: "Black Plain button-down shirt ",
-    price: "#97,000",
-    productInfo: "This is a black-sleeve",
+    name: "White round-neck polo short ",
+    price: "#17,000",
+    productInfo: "This is a white round-neck",
     category: "primark",
     color: "black",
     customers_reviews: [
@@ -1622,9 +1622,9 @@ const productDatas = [
   {
     id: 52,
     img: Img52,
-    name: "Black Plain button-down shirt ",
-    price: "#12,000",
-    productInfo: "This is a black-sleeve",
+    name: "All Star white and black shoe",
+    price: "#16,000",
+    productInfo: "This is an all-star",
     category: "primark",
     color: "black",
     customers_reviews: [
@@ -1680,9 +1680,9 @@ const productDatas = [
   {
     id: 54,
     img: Img54,
-    name: "Black Plain button-down shirt ",
-    price: "33,000",
-    productInfo: "This is a black-sleeve",
+    name: "Flair drive gown and white polo ",
+    price: "21,000",
+    productInfo: "This is a flair gown with white polo",
     category: "primark",
     color: "black",
     customers_reviews: [
@@ -1709,9 +1709,9 @@ const productDatas = [
   {
     id: 55,
     img: Img55,
-    name: "Black Plain button-down shirt ",
+    name: "Blue plain trouser with design ",
     price: "#18,430",
-    productInfo: "This is a black-sleeve",
+    productInfo: "This is a blue plain trouser with design",
     category: "primark",
     color: "black",
     customers_reviews: [
@@ -1738,9 +1738,9 @@ const productDatas = [
   {
     id: 56,
     img: Img56,
-    name: "Black Plain button-down shirt ",
-    price: "#154,000",
-    productInfo: "This is a black-sleeve",
+    name: "collar shirt with dots around",
+    price: "#14,000",
+    productInfo: "This is a collar shirt with dots around",
     category: "primark",
     color: "black",
     customers_reviews: [
@@ -1767,9 +1767,9 @@ const productDatas = [
   {
     id: 57,
     img: Img57,
-    name: "Black Plain button-down shirt ",
-    price: "#16,100",
-    productInfo: "This is a black-sleeve",
+    name: "Black-gold romalia black gown ",
+    price: "#26,100",
+    productInfo: "This is a Black-gold romalia black gown",
     category: "primark",
     color: "black",
     customers_reviews: [
@@ -1796,8 +1796,8 @@ const productDatas = [
   {
     id: 58,
     img: Img58,
-    name: "Black Plain button-down shirt ",
-    price: "#56,000",
+    name: "Shiny gown with covered top",
+    price: "#132,000",
     productInfo: "This is a black-sleeve",
     category: "primark",
     color: "black",
@@ -1825,8 +1825,8 @@ const productDatas = [
   {
     id: 59,
     img: Img59,
-    name: "Black Plain button-down shirt ",
-    price: "#32,000",
+    name: "Red short gown short sleeve ",
+    price: "#22,000",
     productInfo: "This is a black-sleeve",
     category: "primark",
     color: "black",
@@ -1854,7 +1854,7 @@ const productDatas = [
   {
     id: 60,
     img: Img60,
-    name: "Black Plain button-down shirt ",
+    name: "Off-White snow wedding gown",
     price: "25,000",
     productInfo: "This is a black-sleeve",
     category: "primark",
@@ -1883,7 +1883,7 @@ const productDatas = [
   {
     id: 61,
     img: Img61,
-    name: "Black Plain button-down shirt ",
+    name: "Multi colored Ankara gown/top",
     price: "#16,330",
     productInfo: "This is a black-sleeve",
     category: "primark",
@@ -1941,7 +1941,7 @@ const productDatas = [
   {
     id: 63,
     img: Img63,
-    name: "Black Plain button-down shirt ",
+    name: "Multi colored dope sneekers ",
     price: "#14,200",
     productInfo: "This is a black-sleeve",
     category: "addidas",
@@ -1970,9 +1970,9 @@ const productDatas = [
   {
     id: 64,
     img: Img64,
-    name: "Black Plain button-down shirt ",
+    name: "White Addidas mypito sneekers ",
     price: "#15,300",
-    productInfo: "This is a black-sleeve",
+    productInfo: "White Addidas mypito sneekers ",
     category: "addidas",
     color: "black",
     customers_reviews: [
@@ -1999,7 +1999,7 @@ const productDatas = [
   {
     id: 65,
     img: Img65,
-    name: "Black Plain button-down shirt ",
+    name: "Mutli color shoes with white",
     price: "20,300",
     productInfo: "This is a black-sleeve",
     category: "addidas",
@@ -2057,9 +2057,9 @@ const productDatas = [
   {
     id: 67,
     img: Img67,
-    name: "Black Plain button-down shirt ",
+    name: "Addidas white shoes sneeker",
     price: "#23,000",
-    productInfo: "This is a black-sleeve",
+    productInfo: "Addidas white shoes sneeker",
     category: "addidas",
     color: "black",
     customers_reviews: [
@@ -2115,9 +2115,9 @@ const productDatas = [
   {
     id: 69,
     img: Img69,
-    name: "Black Plain button-down shirt ",
+    name: "Addidas double colored shirt ",
     price: "#13,900",
-    productInfo: "This is a black-sleeve",
+    productInfo: "Addidas double colored shirt",
     category: "addidas",
     color: "black",
     customers_reviews: [
@@ -2202,7 +2202,7 @@ const productDatas = [
   {
     id: 72,
     img: Img72,
-    name: "Black Plain button-down shirt ",
+    name: "Blue and white rocket sneeker",
     price: "33,210",
     productInfo: "This is a black-sleeve",
     category: "addidas",
@@ -2231,9 +2231,9 @@ const productDatas = [
   {
     id: 73,
     img: Img73,
-    name: "Black Plain button-down shirt ",
+    name: "Black and white addidas pouch",
     price: "#22,000",
-    productInfo: "This is a black-sleeve",
+    productInfo: "Black and white addidas pouch",
     category: "addidas",
     color: "black",
     customers_reviews: [
@@ -2260,9 +2260,9 @@ const productDatas = [
   {
     id: 74,
     img: Img74,
-    name: "Black Plain button-down shirt ",
-    price: "#54,200",
-    productInfo: "This is a black-sleeve",
+    name: "Red and white addidas jacket ",
+    price: "#23,200",
+    productInfo: "Red and white addidas jacket",
     category: "addidas",
     color: "black",
     customers_reviews: [
@@ -2289,7 +2289,7 @@ const productDatas = [
   {
     id: 75,
     img: Img75,
-    name: "Black Plain button-down shirt ",
+    name: "Black and white stripes snekers",
     price: "#13,200",
     productInfo: "This is a black-sleeve",
     category: "addidas",
@@ -2318,9 +2318,9 @@ const productDatas = [
   {
     id: 76,
     img: Img76,
-    name: "Black Plain button-down shirt ",
-    price: "#12,200",
-    productInfo: "This is a black-sleeve",
+    name: "Black and white addidas logo ",
+    price: "#10,200",
+    productInfo: "Black and white addidas logo",
     category: "addidas",
     color: "black",
     customers_reviews: [
@@ -2347,9 +2347,9 @@ const productDatas = [
   {
     id: 77,
     img: Img77,
-    name: "Black Plain button-down shirt ",
-    price: "#23,220",
-    productInfo: "This is a black-sleeve",
+    name: "Diamond desigin beads bag",
+    price: "#20,200",
+    productInfo: "Diamond desigin beads bag",
     category: "ego",
     color: "black",
     customers_reviews: [
@@ -2376,9 +2376,9 @@ const productDatas = [
   {
     id: 78,
     img: Img78,
-    name: "Black Plain button-down shirt ",
-    price: "#21,600",
-    productInfo: "This is a black-sleeve",
+    name: "Brown Sun-Shades with lack lens",
+    price: "#21,000",
+    productInfo: "Beautiful black tote bag-curve",
     category: "ego",
     color: "black",
     customers_reviews: [
@@ -2406,7 +2406,7 @@ const productDatas = [
     id: 79,
     img: Img79,
     name: "Black Plain button-down shirt ",
-    price: "#23,4000",
+    price: "#23,400",
     productInfo: "This is a black-sleeve",
     category: "ego",
     color: "black",
@@ -2434,9 +2434,9 @@ const productDatas = [
   {
     id: 80,
     img: Img80,
-    name: "Black Plain button-down shirt ",
+    name: "Rainbow lens and black cover ",
     price: "#16,400",
-    productInfo: "This is a black-sleeve",
+    productInfo: "Rainbow lens and black cover",
     category: "ego",
     color: "black",
     customers_reviews: [
@@ -2463,9 +2463,9 @@ const productDatas = [
   {
     id: 81,
     img: Img81,
-    name: "Black Plain button-down shirt ",
-    price: "#12,000",
-    productInfo: "This is a black-sleeve",
+    name: "Blue lens and white coverage ",
+    price: "#9,000",
+    productInfo: "Blue lens and white coverage",
     category: "ego",
     color: "black",
     customers_reviews: [
@@ -2492,9 +2492,9 @@ const productDatas = [
   {
     id: 82,
     img: Img82,
-    name: "Black Plain button-down shirt ",
-    price: "#21,200",
-    productInfo: "This is a black-sleeve",
+    name: "Blue handle and dark black lens",
+    price: "#9,200",
+    productInfo: "Blue handle and dark black lens",
     category: "ego",
     color: "black",
     customers_reviews: [
@@ -2521,9 +2521,9 @@ const productDatas = [
   {
     id: 83,
     img: Img83,
-    name: "Black Plain button-down shirt ",
-    price: "#12,220",
-    productInfo: "This is a black-sleeve",
+    name: "Blue google for swimming brg",
+    price: "#11,000",
+    productInfo: "Blue google for swimming brg",
     category: "ego",
     color: "black",
     customers_reviews: [
@@ -2550,7 +2550,7 @@ const productDatas = [
   {
     id: 84,
     img: Img84,
-    name: "Black Plain button-down shirt ",
+    name: "Black lens and black handle  ",
     price: "#13,000",
     productInfo: "This is a black-sleeve",
     category: "ego",
@@ -2579,9 +2579,9 @@ const productDatas = [
   {
     id: 85,
     img: Img85,
-    name: "Black Plain button-down shirt ",
+    name: "Multi Color, silk beach wear",
     price: "#18,500",
-    productInfo: "This is a black-sleeve",
+    productInfo: "Multi Color, silk beach wear",
     category: "ego",
     color: "black",
     customers_reviews: [
@@ -2608,7 +2608,7 @@ const productDatas = [
   {
     id: 86,
     img: Img86,
-    name: "Black Plain button-down shirt ",
+    name: "Soft and silk beach wears male",
     price: "#14,700",
     productInfo: "This is a black-sleeve",
     category: "ego",
@@ -2637,9 +2637,9 @@ const productDatas = [
   {
     id: 87,
     img: Img87,
-    name: "Black Plain button-down shirt ",
-    price: "#15,200",
-    productInfo: "This is a black-sleeve",
+    name: "Dope Blue cap small curved",
+    price: "#11,200",
+    productInfo: "Dope Blue cap small curved",
     category: "ego",
     color: "black",
     customers_reviews: [
@@ -2666,9 +2666,9 @@ const productDatas = [
   {
     id: 88,
     img: Img88,
-    name: "Black Plain button-down shirt ",
-    price: "#24,300",
-    productInfo: "This is a black-sleeve",
+    name: "Brown and black hat with rope",
+    price: "#12,100",
+    productInfo: "Brown and black hat with rope",
     category: "ego",
     color: "black",
     customers_reviews: [
@@ -2695,9 +2695,9 @@ const productDatas = [
   {
     id: 89,
     img: Img89,
-    name: "Black Plain button-down shirt ",
+    name: "Multi colors curved edges cap ",
     price: "#12,300",
-    productInfo: "This is a black-sleeve",
+    productInfo: "Multi colors curved edges cap ",
     category: "ego",
     color: "black",
     customers_reviews: [
@@ -2724,9 +2724,9 @@ const productDatas = [
   {
     id: 90,
     img: Img90,
-    name: "Black Plain button-down shirt ",
-    price: "#13,200",
-    productInfo: "This is a black-sleeve",
+    name: "Black curved edges face cap ",
+    price: "#7,200",
+    productInfo: "Black curved edges face cap",
     category: "ego",
     color: "black",
     customers_reviews: [
@@ -2782,7 +2782,7 @@ const productDatas = [
   {
     id: 92,
     img: Img92,
-    name: "Black Plain button-down shirt ",
+    name: "Dope mix colors jordan flash",
     price: "#24,330",
     productInfo: "This is a black-sleeve",
     category: "jordan",
@@ -2811,7 +2811,7 @@ const productDatas = [
   {
     id: 93,
     img: Img93,
-    name: "Black Plain button-down shirt ",
+    name: "Air Jordan 4 Sneakers Shoes  ",
     price: "#21,300",
     productInfo: "This is a black-sleeve",
     category: "jordan",
@@ -2869,9 +2869,9 @@ const productDatas = [
   {
     id: 95,
     img: Img95,
-    name: "Black Plain button-down shirt ",
-    price: "#12,950",
-    productInfo: "This is a black-sleeve",
+    name: "Ash color rounded dope shoes",
+    price: "#33,000",
+    productInfo: "Ash color rounded dope shoes",
     category: "jordan",
     color: "black",
     customers_reviews: [
@@ -2898,9 +2898,9 @@ const productDatas = [
   {
     id: 96,
     img: Img96,
-    name: "Black Plain button-down shirt ",
-    price: "#14,800",
-    productInfo: "This is a black-sleeve",
+    name: "Black and White jordan shoes ",
+    price: "#44,800",
+    productInfo: "Black and White jordan shoes",
     category: "jordan",
     color: "black",
     customers_reviews: [
@@ -2927,9 +2927,9 @@ const productDatas = [
   {
     id: 97,
     img: Img97,
-    name: "Black Plain button-down shirt ",
-    price: "#13,200",
-    productInfo: "This is a black-sleeve",
+    name: "Sketch of the ultra jordan fills",
+    price: "#23,200",
+    productInfo: "Sketch of the ultra jordan fills",
     category: "jordan",
     color: "black",
     customers_reviews: [
@@ -2985,9 +2985,9 @@ const productDatas = [
   {
     id: 99,
     img: Img99,
-    name: "Black Plain button-down shirt ",
-    price: "#13,200",
-    productInfo: "This is a black-sleeve",
+    name: "Blue and white jordan eclipse ",
+    price: "#23,200",
+    productInfo: "Blue and white jordan eclipse",
     category: "jordan",
     color: "black",
     customers_reviews: [
@@ -3043,9 +3043,9 @@ const productDatas = [
   {
     id: 101,
     img: Img101,
-    name: "Black Plain button-down shirt ",
-    price: "#32,000",
-    productInfo: "This is a black-sleeve",
+    name: "Multi color real jordan boots",
+    price: "#42,000",
+    productInfo: "Multi color real jordan boots",
     category: "jordan",
     color: "black",
     customers_reviews: [
@@ -3072,9 +3072,9 @@ const productDatas = [
   {
     id: 102,
     img: Img102,
-    name: "Black Plain button-down shirt ",
-    price: "#23,200",
-    productInfo: "This is a black-sleeve",
+    name: "Black and white rockstar boots",
+    price: "#43,200",
+    productInfo: "Black and white rockstar boots",
     category: "jordan",
     color: "black",
     customers_reviews: [
@@ -3101,9 +3101,9 @@ const productDatas = [
   {
     id: 103,
     img: Img103,
-    name: "Black Plain button-down shirt ",
+    name: "Red and black logo jordan hits ",
     price: "#12,900",
-    productInfo: "This is a black-sleeve",
+    productInfo: "Red and black logo jordan hits",
     category: "jordan",
     color: "black",
     customers_reviews: [
@@ -3130,9 +3130,9 @@ const productDatas = [
   {
     id: 104,
     img: Img104,
-    name: "Black Plain button-down shirt ",
-    price: "#13,200",
-    productInfo: "This is a black-sleeve",
+    name: "Ash color boots from jordan ",
+    price: "#52,200",
+    productInfo: "Ash color boots from jordan",
     category: "jordan",
     color: "black",
     customers_reviews: [
@@ -3159,9 +3159,9 @@ const productDatas = [
   {
     id: 105,
     img: Img105,
-    name: "Black Plain button-down shirt ",
-    price: "#13,200",
-    productInfo: "This is a black-sleeve",
+    name: "Red and white jordan polos",
+    price: "#12,500",
+    productInfo: "Red and white jordan polos",
     category: "jordan",
     color: "black",
     customers_reviews: [
@@ -3188,9 +3188,9 @@ const productDatas = [
   {
     id: 106,
     img: Img106,
-    name: "Black Plain button-down shirt ",
-    price: "#12,200",
-    productInfo: "This is a black-sleeve",
+    name: "Ash and White jordan express ",
+    price: "#55,000",
+    productInfo: "Ash and White jordan express",
     category: "jordan",
     color: "black",
     customers_reviews: [
@@ -3217,9 +3217,9 @@ const productDatas = [
   {
     id: 107,
     img: Img107,
-    name: "Black Plain button-down shirt ",
-    price: "#17,300",
-    productInfo: "This is a black-sleeve",
+    name: "Nike multi-color sport shoes ",
+    price: "#127,300",
+    productInfo: "Nike multi-color sport shoes ",
     category: "nike",
     color: "black",
     customers_reviews: [
@@ -3246,9 +3246,9 @@ const productDatas = [
   {
     id: 108,
     img: Img108,
-    name: "Black Plain button-down shirt ",
+    name: "Nike Air Force Casual Sneekers ",
     price: "#24,000",
-    productInfo: "This is a black-sleeve",
+    productInfo: "Nike multi-color sport shoes ",
     category: "nike",
     color: "black",
     customers_reviews: [
@@ -3275,9 +3275,9 @@ const productDatas = [
   {
     id: 109,
     img: Img109,
-    name: "Black Plain button-down shirt ",
+    name: "Mens Air Max Trainer Sneekers ",
     price: "#21,100",
-    productInfo: "This is a black-sleeve",
+    productInfo: "Mens Air Max Trainer Sneekers",
     category: "nike",
     color: "black",
     customers_reviews: [
@@ -3304,9 +3304,9 @@ const productDatas = [
   {
     id: 110,
     img: Img110,
-    name: "Black Plain button-down shirt ",
-    price: "#12,200",
-    productInfo: "This is a black-sleeve",
+    name: "Drip Swoosh Nike for women",
+    price: "#22,200",
+    productInfo: "Drip Swoosh Nike for women",
     category: "nike",
     color: "black",
     customers_reviews: [
@@ -3333,9 +3333,9 @@ const productDatas = [
   {
     id: 111,
     img: Img111,
-    name: "Black Plain button-down shirt ",
+    name: " Nike Bruin React Men Shoes ",
     price: "#43,300",
-    productInfo: "This is a black-sleeve",
+    productInfo: "Nike Bruin React Men Shoes",
     category: "nike",
     color: "black",
     customers_reviews: [
@@ -3362,9 +3362,9 @@ const productDatas = [
   {
     id: 112,
     img: Img112,
-    name: "Black Plain button-down shirt ",
-    price: "#12,300",
-    productInfo: "This is a black-sleeve",
+    name: "Nike Shoes ferrari on balance ",
+    price: "#54,300",
+    productInfo: "Nike Shoes ferrari on balance",
     category: "nike",
     color: "black",
     customers_reviews: [
@@ -3391,9 +3391,9 @@ const productDatas = [
   {
     id: 113,
     img: Img113,
-    name: "Black Plain button-down shirt ",
-    price: "#12,220",
-    productInfo: "This is a black-sleeve",
+    name: "Midjourney: nike for the future ",
+    price: "#32,220",
+    productInfo: "Midjourney: nike for the future",
     category: "nike",
     color: "black",
     customers_reviews: [
@@ -3420,9 +3420,9 @@ const productDatas = [
   {
     id: 114,
     img: Img114,
-    name: "Black Plain button-down shirt ",
-    price: "#13,200",
-    productInfo: "This is a black-sleeve",
+    name: "Nike Shoes Men's Air Force Oak ",
+    price: "#33,200",
+    productInfo: "Nike Shoes Men's Force Oak",
     category: "nike",
     color: "black",
     customers_reviews: [
@@ -3449,9 +3449,9 @@ const productDatas = [
   {
     id: 115,
     img: Img115,
-    name: "Black Plain button-down shirt ",
-    price: "#11,200",
-    productInfo: "This is a black-sleeve",
+    name: "Nike Air Force I | White Sneeker",
+    price: "#20,500",
+    productInfo: "Nike Air Force I | White Sneeker",
     category: "nike",
     color: "black",
     customers_reviews: [
@@ -3478,9 +3478,9 @@ const productDatas = [
   {
     id: 116,
     img: Img116,
-    name: "Black Plain button-down shirt ",
+    name: "Nike Air Max 270 G Golf Shoes",
     price: "#23,200",
-    productInfo: "This is a black-sleeve",
+    productInfo: "Nike Air Max 270 G Golf Shoes",
     category: "nike",
     color: "black",
     customers_reviews: [
@@ -3507,9 +3507,9 @@ const productDatas = [
   {
     id: 117,
     img: Img117,
-    name: "Black Plain button-down shirt ",
+    name: "Personalised sneakers with Nike ",
     price: "#44,300",
-    productInfo: "This is a black-sleeve",
+    productInfo: "Personalised sneakers with Nike",
     category: "nike",
     color: "black",
     customers_reviews: [
@@ -3536,9 +3536,9 @@ const productDatas = [
   {
     id: 118,
     img: Img118,
-    name: "Black Plain button-down shirt ",
-    price: "#12,201",
-    productInfo: "This is a black-sleeve",
+    name: "Nike | Pop-up Sx On Balance",
+    price: "#22,201",
+    productInfo: "Nike | Pop-up Sx On Balance",
     category: "nike",
     color: "black",
     customers_reviews: [
@@ -3565,9 +3565,9 @@ const productDatas = [
   {
     id: 119,
     img: Img119,
-    name: "Black Plain button-down shirt ",
-    price: "#13,200",
-    productInfo: "This is a black-sleeve",
+    name: "Nike Airforce 1 Drip Bold Tex ",
+    price: "#19,200",
+    productInfo: "Nike Airforce 1 Drip Bold Tex",
     category: "nike",
     color: "black",
     customers_reviews: [
@@ -3652,9 +3652,9 @@ const productDatas = [
   {
     id: 122,
     img: Img122,
-    name: "Black Plain button-down shirt ",
+    name: "Brown dope jacket unisex style ",
     price: "#16,200",
-    productInfo: "This is a black-sleeve",
+    productInfo: "Brown dope jacket unisex style",
     category: "localstores",
     color: "black",
     customers_reviews: [
@@ -3681,9 +3681,9 @@ const productDatas = [
   {
     id: 123,
     img: Img123,
-    name: "Black Plain button-down shirt ",
+    name: "Multi color polo top with collar",
     price: "13,200",
-    productInfo: "This is a black-sleeve",
+    productInfo: "Multi color polo top with collar",
     category: "localstores",
     color: "black",
     customers_reviews: [
@@ -3739,9 +3739,9 @@ const productDatas = [
   {
     id: 125,
     img: Img125,
-    name: "Black Plain button-down shirt ",
+    name: "White suit with stripes colors",
     price: "#12,200",
-    productInfo: "This is a black-sleeve",
+    productInfo: "White suit with stripes colors",
     category: "localstores",
     color: "black",
     customers_reviews: [
@@ -3768,9 +3768,9 @@ const productDatas = [
   {
     id: 126,
     img: Img126,
-    name: "Black Plain button-down shirt ",
+    name: "Plain carton pants with gator",
     price: "#32,200",
-    productInfo: "This is a black-sleeve",
+    productInfo: "Plain carton pants with gator",
     category: "localstores",
     color: "black",
     customers_reviews: [
@@ -3797,7 +3797,7 @@ const productDatas = [
   {
     id: 127,
     img: Img127,
-    name: "Black Plain button-down shirt ",
+    name: "Dope shades for men/women",
     price: "#13,200",
     productInfo: "This is a black-sleeve",
     category: "localstores",
@@ -3855,7 +3855,7 @@ const productDatas = [
   {
     id: 129,
     img: Img129,
-    name: "Black Plain button-down shirt ",
+    name: "Blue lens and gold sleeve rope ",
     price: "#43,200",
     productInfo: "This is a black-sleeve",
     category: "localstores",
@@ -3884,7 +3884,7 @@ const productDatas = [
   {
     id: 130,
     img: Img130,
-    name: "Black Plain button-down shirt ",
+    name: "Black shades for male/female ",
     price: "#12,200",
     productInfo: "This is a black-sleeve",
     category: "localstores",
@@ -3942,9 +3942,9 @@ const productDatas = [
   {
     id: 132,
     img: Img132,
-    name: "Black Plain button-down shirt ",
+    name: "Multi colored bags with bead",
     price: "#25,000",
-    productInfo: "This is a black-sleeve",
+    productInfo: "Multi colored bags with bead",
     category: "localstores",
     color: "black",
     customers_reviews: [
@@ -4058,9 +4058,9 @@ const productDatas = [
   {
     id: 136,
     img: Img136,
-    name: "Black Plain button-down shirt ",
+    name: "A Beautiful multi colored bags ",
     price: "33,200",
-    productInfo: "This is a black-sleeve",
+    productInfo: "A Beautiful multi colored bags ",
     category: "localstores",
     color: "black",
     customers_reviews: [

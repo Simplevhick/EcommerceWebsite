@@ -61,7 +61,7 @@ const Sidebar = () => {
 
   return (
     <div>
-      <div className="border w-[13rem] rounded-[4px] bg-[#F9F1F6] h-[27rem] mt-[10px] text-sm">
+      <div className="border w-[13rem] rounded-[4px] bg-[#F9F1F6] h-[27rem] mt-[10px] text-sm hidden md:block">
         <div className="flex p-[5px] mt-[7px] text-[rgb(75,68,77)]">
           <p className="text-xs ml-[0.5rem]">Clothes</p>
         </div>
